@@ -1,1 +1,4 @@
 output/
+*.dvi
+*.aux
+*.log
