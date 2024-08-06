@@ -1,5 +1,7 @@
 
 \title{Steven Schaefer}
+\author{stevenschaefer}
+\meta{author}{false}
 
 \p{
 I am a third-year PhD student at the University of Michigan. I am advised by Max New and Jean-Baptiste Jeannin.}
@@ -17,12 +19,11 @@ I am interested in the study of programming languages. I am especially focused o
 
 \p{I built this website using [Forester](http://www.jonmsterling.com/jms-007N.xml)}
 
-\p{
-  Welcome to your first tree! This tree is the root of your forest.
-  \ul{
-    \li{[Build and view your forest for the first time](http://www.jonmsterling.com/jms-007D.xml)}
-    \li{[Overview of the Forester markup language](http://www.jonmsterling.com/jms-007N.xml)}
-    \li{[Creating new trees](http://www.jonmsterling.com/jms-007H.xml)}
-    \li{[Creating your personal biographical tree](http://www.jonmsterling.com/jms-007K.xml)}
+  \put\transclude/numbered{false}
+  \scope{
+    \put\transclude/title{research themes}
+    \transclude{notes}
   }
+
+  \transclude{notes}
 }
