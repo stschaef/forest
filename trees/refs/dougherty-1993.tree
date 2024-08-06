@@ -1,0 +1,14 @@
+\title{Closed Categories and Categorial Grammar}
+\taxon{reference}
+\author{Daniel J. Dougherty}
+\meta{doi}{10.1080/00029890.1958.11989160}
+\meta{bibtex}\verb<<<|
+@article{dougherty1993closed,
+  title={Closed categories and categorial grammar},
+  author={Dougherty, Daniel J.},
+  journal={Notre Dame journal of formal logic},
+  volume={34},
+  number={1},
+  pages={36--49},
+  year={1993}
+}<<<

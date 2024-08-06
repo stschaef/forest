@@ -1,0 +1,20 @@
+\title{Dougherty's Presentation}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\meta{source}{\citek{dougherty-1993}}
+
+\transclude{sss-0005}
+\transclude{sss-0008}
+
+\p{This work makes it more precise that closed monoidal categories form a natural setting for syntactic reasoning. However, it is perhaps still a little underwhelming and there is room for improvement. The correspondence to our ongoing work is:
+
+\ul{
+\li{Intuitively we can read #{Typ} as giving the objects of a typing category}
+\li{A lexicon behaves like a context with assignments to each variable. We may think of these assignments of variables to lexical items as giving sentence to be parsed}
+\li{A syntax tree is a proof that the phrase given by the lexicon belongs to the grammar.}
+}
+}
+
+\transclude{sss-000C}
+\transclude{sss-000D}

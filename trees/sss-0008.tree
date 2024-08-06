@@ -1,0 +1,17 @@
+\title{Syntax Category}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\taxon{definition}
+
+\p{Fixing a set of base types #{B},
+
+\ul{
+  \li{#{Typ} is the set of type expressions generated from #{B} over #{I, \lto{}{}, \tol{}{}}}
+  \li{A \em{lexicon} is a set of entries of the from #{[ \alpha : a ]}, where #{\alpha} is a \em{lexical item} and #{a \in Typ}}
+  \li{A \em{syntax tree} is a binary tree whose leaves are lexical items}
+  \li{As \em{phrase} is a syntax tree with a linear ordering on its leaves}
+}
+}
+
+\p{A \em{syntax category} over base types #{B} and lexicon #{Lex} is a [closed category](sss-0005) #{C} that assigns an object #{\omega (b)} to each #{b \in B}, and a mapping #{\mu} from #{Lex} to arrows of #{C}. That is, #{\mu (\alpha : a) : C[ 1 , \omega (\alpha) ]}.}

@@ -1,0 +1,117 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=latex 2024.3.20)  6 AUG 2024 09:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**05c12a287334386c94131ab8aa00d08a.tex
+(./05c12a287334386c94131ab8aa00d08a.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/standalone/st
+andalone.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files stan
+dalone
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/tools/shelles
+c.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/generic/iftex/iflua
+tex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/generic/iftex/iftex
+.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/xkeyval/xkeyv
+al.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/generic/xkeyval/xke
+yval.tex
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/generic/xkeyval/xkv
+utils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/generic/xkeyval/key
+val.tex))
+\XKV@depth=\count188
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count189
+\c@sapage=\count190
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/standalone/st
+andalone.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalon
+e' class
+)
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/base/article.
+cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/base/size10.c
+lo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\c@figure=\count197
+\c@table=\count198
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+\sa@box=\box51
+\sa@yoffset=\skip50
+)
+(/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/l3backend/l3b
+ackend-dvisvgm.def
+File: l3backend-dvisvgm.def 2024-02-20 L3 backend support: dvisvgm
+\g__kernel_backend_scope_int=\count199
+\l__kernel_backend_scope_int=\count266
+\g__kernel_clip_path_int=\count267
+\g__draw_backend_path_int=\count268
+) (./05c12a287334386c94131ab8aa00d08a.aux)
+\openout1 = `05c12a287334386c94131ab8aa00d08a.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+ [1
+
+]
+(./05c12a287334386c94131ab8aa00d08a.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1019 strings out of 474117
+ 19989 string characters out of 5733645
+ 1925184 words of memory out of 5000000
+ 23432 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,5n,71p,211b,104s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on 05c12a287334386c94131ab8aa00d08a.dvi (1 page, 320 bytes).

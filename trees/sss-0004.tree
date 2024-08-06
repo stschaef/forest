@@ -1,0 +1,11 @@
+\title{Cut in the Syntactic Calculus}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\taxon{definition}
+\meta{source}{\citek{lambek-1958}}
+
+\p{If #{T \to x} and #{U , x , V \to y} then #{U , T , V \to y}.
+
+Gentzen's theorem shows that this rule does not increase the expressivity of the deductive system.
+}

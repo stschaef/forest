@@ -1,0 +1,12 @@
+\title{Biclosed Monoidal Category}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\taxon{definition}
+
+\p{A \em{biclosed monoidal category} (or just \em{closed category}) is a category #{C} with the following structure:
+
+\transclude{sss-0006}
+\transclude{sss-0007}
+
+}

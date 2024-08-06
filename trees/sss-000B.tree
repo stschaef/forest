@@ -1,0 +1,10 @@
+\date{2024-08-06}
+\title{Lambek's Presentation}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\meta{source}{\citek{lambek-1958}}
+
+\transclude{sss-0002}
+\transclude{sss-0003}
+\transclude{sss-0004}

@@ -1,0 +1,16 @@
+\title{The Mathematics of Sentence Structure}
+\taxon{reference}
+\author{Joachim Lambek}
+\meta{doi}{10.1080/00029890.1958.11989160}
+\meta{bibtex}\verb<<<|
+@article{lambek-1958,
+  author = {Joachim Lambek},
+  title = {The Mathematics of Sentence Structure},
+  journal = {The American Mathematical Monthly},
+  volume = {65},
+  number = {3},
+  pages = {154--170},
+  year = {1958},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/00029890.1958.11989160},
+}<<<
