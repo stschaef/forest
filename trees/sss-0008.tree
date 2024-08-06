@@ -2,6 +2,7 @@
 \date{2024-08-06}
 \author{stevenschaefer}
 \export{base-macros}
+\meta{source}{\citek{dougherty-1993}}
 \taxon{definition}
 
 \p{Fixing a set of base types #{B},

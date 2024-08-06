@@ -12,9 +12,10 @@ I am a third-year PhD student at the University of Michigan. I am advised by [Ma
 
 \p{I am interested in the mathematical study of programming languages. In particular, I study the application of logic and category theory to the design and implementation of provably correct software.}
 
-\put\transclude/expanded{false}
-
+\scope{
+\put\transclude/title{Researchasdfad Interests}
 \transclude{sss-000F}
+}
 
 \transclude{sss-000G}
 

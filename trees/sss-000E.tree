@@ -1,0 +1,7 @@
+\title{About This Website}
+\author{Steven Schaefer}
+\date{2024-08-06}
+
+\p{I built this website using [Forester](http://www.jonmsterling.com/jms-007N.xml).}
+
+\p{You may search through this site using \code{Ctrl-k}/\code{Cmd-k}.}

@@ -1,0 +1,8 @@
+\title{Research Interests}
+\date{2024-08-06}
+\author{stevenschaefer}
+
+\ul{
+  \li{Correct-by-construction parsing}
+  \li{Mechanized category theory in Agda}
+}
