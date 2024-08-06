@@ -1,1 +1,26 @@
+\title{Lambek's Syntactic Calculus}
 \date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\taxon{definition}
+\meta{source}{\citek{lambek-1958}}
+
+\p{Lambek's \em{syntactic calculus} comprise the following rules:
+
+\ul{
+  \li{#{x \to x}}
+  \li{#{(xy) z \to x (yz)}}
+  \li{#{x (y z) \to (xy) z}}
+  \li{if #{xy \to z} then #{x \to z/y}}
+  \li{if #{xy \to z} then #{y \to x \backslash z}}
+  \li{if #{x \to z/y} then #{xy \to z}}
+  \li{if #{y \to x \backslash z} then #{xy \to z}}
+  \li{if #{x \to y} and #{y \to z} then #{x \to z}}
+}
+}
+
+\p{Put by Lambek:
+\blockquote{The system presented above may be viewed abstractly as a formal language with a number of primitive type symbols...}
+}
+
+\p{This description rings true, as we can read this as a very simple for type system for grammars that is later made more precise by [Dougherty](dougherty-1993).}

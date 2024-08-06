@@ -1,4 +1,3 @@
-
 \title{Steven Schaefer}
 \author{stevenschaefer}
 \meta{author}{false}
@@ -11,9 +10,11 @@ I am interested in the study of programming languages. I am especially focused o
 
 \p{
 \ul{
+  \li{research}
   \li{teaching}
   \li{notes}
   \li{about me}
+  \li{links to other sites}
 }
 }
 
@@ -26,4 +27,3 @@ I am interested in the study of programming languages. I am especially focused o
   }
 
   \transclude{notes}
-}

@@ -1,1 +1,6 @@
+\title{Categorial Grammar}
 \date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+
+\transclude{sss-0009}
