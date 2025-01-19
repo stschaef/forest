@@ -1,4 +1,5 @@
 output/
+build/
 *.dvi
 *.aux
 *.log
