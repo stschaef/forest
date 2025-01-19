@@ -1,12 +1,21 @@
 ;;; Mode for simple forester commands
 
-(defun forest-new ()
+(defun forester-new ()
   "Create a new tree."
   (interactive)
   (let
       ((default-directory "~/forest")
        (command "forester new forest.toml --dest=trees --prefix=sss"))
     (shell-command command)))
+
+(map! :leader
+      "f n" 'forester-new)
+
+(defun forester-jump-tree ()
+  (interactive)
+  (counsel-file-jump (current-word) (projectile-project-root)))
+
+(map! :n "g t" 'forester-jump-tree)
 
 (define-derived-mode forester-mode fundamental-mode "Forester"
   "Major mode for editing Forester code."
