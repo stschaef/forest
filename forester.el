@@ -11,11 +11,24 @@
 (map! :leader
       "f n" 'forester-new)
 
+(defun my/projectile-find-file-at-point ()
+  "Use `projectile-find-file' to search for the word at point and open the best matching file."
+  (interactive)
+  (let* ((current-word (thing-at-point 'word t))
+         (project-files (projectile-current-project-files))
+         (matching-files (seq-filter (lambda (file)
+                                       (string-match-p (regexp-quote current-word) file))
+                                     project-files)))
+    (if matching-files
+        (find-file (projectile-expand-root (car matching-files)))
+      (message "No matching files found for: %s" current-word))))
+
 (defun forester-jump-tree ()
   (interactive)
   (counsel-file-jump (current-word) (projectile-project-root)))
 
-(map! :n "g t" 'forester-jump-tree)
+;; (map! :n "g t" 'forester-jump-tree)
+(map! :n "g t" 'my/projectile-find-file-at-point)
 
 (define-derived-mode forester-mode fundamental-mode "Forester"
   "Major mode for editing Forester code."
