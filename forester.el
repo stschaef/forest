@@ -1,12 +1,21 @@
 ;;; Mode for simple forester commands
 
+;; (defun forester-new ()
+;;   "Create a new tree."
+;;   (interactive)
+;;   (let
+;;       ((default-directory "~/forest")
+;;        (command "forester new forest.toml --dest=trees --prefix=sss"))
+;;     (shell-command command)))
+
 (defun forester-new ()
-  "Create a new tree."
+  "Create a new tree and open the resulting file."
   (interactive)
-  (let
-      ((default-directory "~/forest")
-       (command "forester new forest.toml --dest=trees --prefix=sss"))
-    (shell-command command)))
+  (let* ((default-directory "~/forest")
+         (command "forester new forest.toml --dest=trees --prefix=sss")
+         (raw-output (shell-command-to-string command))
+         (output-path (string-trim raw-output)))
+    (find-file output-path)))  ;; Opens the new file in a buffer
 
 (map! :leader
       "f n" 'forester-new)

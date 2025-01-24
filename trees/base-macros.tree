@@ -97,6 +97,8 @@
 \def\Mor[arg1][arg2][arg3]{#{{\arg2}\xrightarrow{{\arg1}}{\arg3}}}
 \def\Comma[arg1][arg2]{#{{\arg1}\downarrow{\arg2}}}
 
+\def\disjoint[x][y]{#{\x \cap \y = \emptyset}}
+
 \def\big-symbol[sym]{\mathchoice{\textstyle\sym}{\textstyle\sym}{\scriptstyle\sym}{\scriptscriptstyle\sym}}
 
 \def\ixsum[ix]{#{\big-symbol{\sum_{\prn{\ix}}}}}
@@ -105,6 +107,8 @@
 \def\ixprod[ix]{#{\big-symbol{\prod_{\prn{\ix}}}}}
 \def\dcoprod[ix]{#{\big-symbol{\coprod_{\prn{\ix}}}}}
 \def\iixprod[ix]{#{\big-symbol{\prod_{\brc{\ix}}}}}
+
+\def\mkset[x][y]{#{\{ \x ~|~ \y \}}}
 
 \def\lam[x]{\lambda{\x}\mathpunct{.}}
 \def\inv{^{-1}}
@@ -130,8 +134,6 @@
 \def\irow[body]{
  \<jms-indent:row>{\body}
 }
-
-
 
 
 \p{This tree defines the basic notational macros used across my forest.}

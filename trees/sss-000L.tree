@@ -12,5 +12,5 @@ Special thanks to Grant Sanderson for creating the manim library, and to Jeff Su
 
 \p{
 \xmlns:html{http://www.w3.org/1999/xhtml}
-\<html:iframe>[src]{https://www.youtube.com/embed/U8MI2a_BHHo}{}
+\<html:iframe>[src]{https://www.youtube.com/embed/U8MI2a_BHHo}[allow]{fullscreen}{}
 }

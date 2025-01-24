@@ -276,7 +276,11 @@
  }
 }
 
-
-\def\latex-preamble/multimaps{
+\def\latex-preamble/grammars{
+  \startverb
   \usepackage{txfonts}
+  \usepackage{mathpartir}
+  \usepackage{stmaryrd}
+  \usepackage{scalerel}
+  \stopverb
 }
