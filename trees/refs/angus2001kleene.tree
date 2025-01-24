@@ -1,0 +1,15 @@
+% ["references"]
+\title{Kleene algebra with tests and program schematology}
+\date{2001}
+\author{Allegra Angus}\author{Dexter Kozen}
+\taxon{reference}
+\tag{kalg}
+
+\meta{bibtex}{\startverb
+@techreport{angus2001kleene,
+ title = {Kleene algebra with tests and program schematology},
+ author = {Angus, Allegra and Kozen, Dexter},
+ year = {2001},
+ institution = {Cornell University}
+}
+\stopverb}

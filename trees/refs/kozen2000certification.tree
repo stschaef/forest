@@ -1,0 +1,17 @@
+% ["references"]
+\title{Certification of compiler optimizations using kleene algebra with tests}
+\date{2000}
+\author{Dexter Kozen}\author{Maria-Cristina Patron}
+\taxon{reference}
+\tag{kalg}
+
+\meta{bibtex}{\startverb
+@inproceedings{kozen2000certification,
+ title = {Certification of compiler optimizations using Kleene algebra with tests},
+ author = {Kozen, Dexter and Patron, Maria-Cristina},
+ year = {2000},
+ booktitle = {International Conference on Computational Logic},
+ pages = {568--582},
+ organization = {Springer}
+}
+\stopverb}

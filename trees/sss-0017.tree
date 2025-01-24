@@ -1,0 +1,17 @@
+\title{Sequential Unambiguity}
+\date{2025-01-24}
+\taxon{definition}
+
+\import{grammar-macros}
+
+\p{
+Grammars #{A} and #{B} are \em{sequentially unambiguous} if the [followlast set](sss-0010) of #{A} is disjoint from the [first set](sss-000Y) of #{B}.
+
+##{\disjoint{\flast{A}}{\first{B}}}
+}
+
+\p{
+We can understand this intuitively by characterizing the behavior of a left-to-right parser of #{A \otimes B}. First it searches for a parse of #{A}, then upon finding a character that is not in #{\flast{A}} it may begin trying search for #{B}.
+
+That is, there is a unique boundary between the #{A}-parse and the #{B}-parse.
+}

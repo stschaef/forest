@@ -1,0 +1,17 @@
+% ["references"]
+\title{Formal properties of grammars}
+\date{1963}
+\author{Noam Chomsky}
+\tag{parsing}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@article{chom1963,
+ title = {Formal Properties of Grammars},
+ author = {Noam Chomsky},
+ year = {1963},
+ journal = {Handbook of Mathematical Psychology},
+ volume = {II},
+ pages = {323--418}
+}
+\stopverb}

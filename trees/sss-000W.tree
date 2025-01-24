@@ -1,0 +1,29 @@
+\title{Deterministic Regular Expressions}
+\taxon{definition}
+\author{stevenschaefer}
+\date{2025-01-24}
+
+\import{grammar-macros}
+
+\p{
+  \em{Deterministic regular expressions} are a grammar formalism for defining regular expressions that correspond to deterministic regular languages.
+
+In the spirit of [Bruggemann-Klein and Wood](bruggemannkleinwood) and [Krishaswami and Yallop](krishnaswami_typed_2019), inductively define the deterministic regular expressions in terms of their [nullability](sss-0014), [first set](sss-000Y), and [followlast set](sss-0010):
+  \ul{
+    \li{#{\epsilon}, the grammar accepting only the empty string.}
+    \li{#{\literal{c}}, the grammar only accepting the length 1 string comprising the character #{c} for some character #{c} drawn from the alphabet}
+    \li{
+      #{r \otimes r'}, the concatenation of #{r} and #{r'} where #{\neg \null{r}} and #{\flast{r} \cap \first{r'} = \emptyset}
+    }
+    \li{
+      #{r \oplus r'}, the disjunction of #{r} and #{r'} where #{\neg (\null{r} \land \null{r'})} and #{\first{r} \cap \first{r'} = \emptyset}
+    }
+    \li{
+      #{\star{r}}, the Kleene star of #{r} where #{\neg \null{r}} and #{\flast{r} \cap \first{r} = \emptyset}
+    }
+  }
+}
+
+\p{
+  In each of the above constructors, the constraints on #{\first{r}} and #{\flast{r}} remove sources of ambiguity in a regular expressions. They provide a sound guarantee that the resulting regular expression has at most one parse for any string.
+}

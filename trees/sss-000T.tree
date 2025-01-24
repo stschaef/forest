@@ -1,0 +1,9 @@
+\title{Type Theory}
+\date{2025-01-23}
+\import{sss-000O}
+
+\p{
+  A collection of resources about type theory.
+}
+
+\make-bib{typetheory}

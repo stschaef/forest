@@ -1,0 +1,22 @@
+% ["references"]
+\title{Multimodal Dependent Type Theory}
+\date{2021-07}
+\author{Daniel Gratzer}\author{G. A. Kavvos}\author{Andreas Nuyts}\author{Lars Birkedal}
+\taxon{reference}
+\tag{typetheory}
+\meta{doi}{10.46298/lmcs-17(3:11)2021}
+\meta{external}{https://lmcs.episciences.org/7713}
+
+\meta{bibtex}{\startverb
+@article{lmcs:7713,
+ title = {{Multimodal Dependent Type Theory}},
+ author = {Daniel Gratzer and G. A. Kavvos and Andreas Nuyts and Lars Birkedal},
+ year = {2021},
+ doi = {10.46298/lmcs-17(3:11)2021},
+ url = {https://lmcs.episciences.org/7713},
+ journal = {{Logical Methods in Computer Science}},
+ volume = {{Volume 17, Issue 3}},
+ keywords = {Computer Science - Logic in Computer Science},
+ month = {July}
+}
+\stopverb}

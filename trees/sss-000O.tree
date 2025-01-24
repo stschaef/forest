@@ -1,0 +1,16 @@
+\title{Bibliographies}
+\author{stevenschaefer}
+\date{2025-01-23}
+
+\def\make-bib[topic]{
+  \query{
+    \open\query
+    \isect{\tag{\topic}}{\taxon{reference}}
+  }
+}
+
+\transclude{sss-000P}
+\transclude{sss-000Q}
+\transclude{sss-000R}
+\transclude{sss-000S}
+\transclude{sss-000T}

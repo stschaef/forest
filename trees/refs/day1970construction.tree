@@ -1,0 +1,14 @@
+% ["references"]
+\title{Construction of biclosed categories}
+\date{1970}
+\author{Brian John Day}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@phdthesis{day1970construction,
+ title = {Construction of biclosed categories},
+ author = {Day, Brian John},
+ year = {1970},
+ school = {University of New South Wales PhD thesis}
+}
+\stopverb}

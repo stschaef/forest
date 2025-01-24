@@ -1,0 +1,17 @@
+% ["references"]
+\title{Substructural calculi with dependent types}
+\date{2018}
+\author{Zhaohui Luo}
+\tag{categorialgrammar}
+\taxon{reference}
+\meta{doi}{10.29007/qrqp}
+
+\meta{bibtex}{\startverb
+@booklet{luo,
+ title = {Substructural Calculi with Dependent Types},
+ author = {Zhaohui Luo},
+ year = {2018},
+ doi = {10.29007/qrqp},
+ howpublished = {EasyChair Preprint 421}
+}
+\stopverb}

@@ -1,0 +1,20 @@
+% ["references"]
+\title{Syntax and semantics of dependent types}
+\date{1997}
+\author{Martin Hofmann}
+\taxon{reference}
+\tag{typetheory}
+
+\meta{bibtex}{\startverb
+@inbook{Hofmann_1997,
+ title = {Syntax and Semantics of Dependent Types},
+ author = {Hofmann, Martin},
+ year = {1997},
+ booktitle = {Semantics and Logics of Computation},
+ series = {Publications of the Newton Institute},
+ pages = {79–130},
+ publisher = {Cambridge University Press},
+ collection = {Publications of the Newton Institute},
+ place = {Cambridge}
+}
+\stopverb}

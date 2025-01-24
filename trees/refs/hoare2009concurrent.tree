@@ -1,0 +1,16 @@
+% ["references"]
+\title{Concurrent kleene algebra}
+\date{2009}
+\author{CAR Tony Hoare}\author{Bernhard Möller}\author{Georg Struth}\author{Ian Wehrman}
+\taxon{reference}
+\tag{kalg}
+
+
+\meta{bibtex}{\startverb
+@inproceedings{hoare2009concurrent,
+ title = {Concurrent kleene algebra},
+ author = {Hoare, CAR Tony and M{\"o}ller, Bernhard and Struth, Georg and Wehrman, Ian},
+ year = {2009},
+ booktitle = {CONCUR}
+}
+\stopverb}

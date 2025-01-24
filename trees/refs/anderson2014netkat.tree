@@ -1,0 +1,15 @@
+% ["references"]
+\title{NetKAT: Semantic foundations for networks}
+\date{2014}
+\author{Carolyn Jane Anderson}\author{Nate Foster}\author{Arjun Guha}\author{Jean-Baptiste Jeannin}\author{Dexter Kozen}\author{Cole Schlesinger}\author{David Walker}
+\taxon{reference}
+\tag{kalg}
+
+\meta{bibtex}{\startverb
+@inproceedings{anderson2014netkat,
+ title = {NetKAT: Semantic foundations for networks},
+ author = {Anderson, Carolyn Jane and Foster, Nate and Guha, Arjun and Jeannin, Jean-Baptiste and Kozen, Dexter and Schlesinger, Cole and Walker, David},
+ year = {2014},
+ booktitle = {Principles of Programming Languages (POPL)}
+}
+\stopverb}

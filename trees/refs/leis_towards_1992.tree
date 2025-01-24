@@ -1,0 +1,27 @@
+% ["references"]
+\title{Towards Kleene Algebra with recursion}
+\date{1992}
+\author{Haas Leiß}
+\taxon{reference}
+\meta{doi}{10.1007/BFb0023771}
+\tag{parsing}
+\tag{kalg}
+
+\meta{bibtex}{\startverb
+@inproceedings{leis_towards_1992,
+ title = {Towards {Kleene} {Algebra} with recursion},
+ author = {Leiß, Haas},
+ year = {1992},
+ isbn = {978-3-540-47285-8},
+ doi = {10.1007/BFb0023771},
+ booktitle = {Computer {Science} {Logic}},
+ editor = {Börger, Egon and Jäger, Gerhard and Kleine Büning, Hans and Richter, Michael M.},
+ pages = {242--256},
+ publisher = {Springer},
+ address = {Berlin, Heidelberg},
+ file = {Full Text PDF:/Users/maxsnew/Zotero/storage/ECBXMTEA/Leiß - 1992 - Towards Kleene Algebra with recursion.pdf:application/pdf},
+ keywords = {Continuous Model, Equational Theory, Finite Automaton, Regular Expression, Regular Language},
+ language = {en},
+ abstract = {We extend Kozen's theory KA of Kleene Algebra to axiomatize parts of the equational theory of context-free languages, using a least fixed-point operator μ instead of Kleene's iteration operator*.}
+}
+\stopverb}

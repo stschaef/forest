@@ -1,0 +1,33 @@
+\title{FollowLast Soundness}
+\author{stevenschaefer}
+\date{2025-01-24}
+\taxon{daily}
+
+\import{grammar-macros}
+
+\p{
+Thus far I have shown the soundness of our notions of [nullability](sss-0015) and [first sets](sss-000Z) for the encoding of [deterministic regular expresssions](sss-000W) in \deplambek.
+}
+
+\p{
+I've been primarily stuck on the following proof for the soundness of the [followlast](sss-0011) sets in the case of concatenation of two nonnullable grammars.
+
+Given #{g} and #{h} such that #{\flast{g}} and #{\first{h}} are disjoint, and #{c \not \in \flast{h}}, want to show that #{c} is also not in #{\flast{g \otimes h}}.
+
+That is, assuming for all #{c}, #{\notinflast{c}{g}} or #{\notinfirst{c}{h}}. Fix #{c} such that #{\notinflast{c}{h}}, and then show #{\notinflast{c}{g \otimes h}}.
+
+}
+
+\p{
+This isn't super bad to do in the model, where you do some case analysis. In particular, the string that is parsed splits into some #{w , x : \String} with #{g} and #{h} parses, respectively. Likewise, it splits into #{y , z : \String} with a #{g} parse of #{y} and an #{h \otimes \literal{c} \otimes \top} parse of #{z}. All in all, we have
+
+##{w,x,y,z : \String , \append{w}{x} = \append{y}{z}}
+with some parses #{g w}, #{h x}, #{g y}, and #{(h \otimes \literal{c} \otimes \top) z}. Then you split into cases checking whether #{w} and #{y} are the same string, if #{w} is a (nontrivial) prefix of #{y}, or if #{y} is a prefix of #{w}.  Then each of the cases are straightforward enough but still tedious.
+
+}
+
+\p{
+I've been weighing whether or not to do effectively the same proof but in the model by using the axiom
+##{g \cong \LinSigTy{w}{\String}{g \And \ceils{w}}}
+It feels as there should be a way to do this at a high level utilizing type-based reasoning, rather than manipulating individual strings.
+}
