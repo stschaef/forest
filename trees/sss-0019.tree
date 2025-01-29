@@ -1,0 +1,29 @@
+\title{Can I Use Guarded Recursion?}
+\author{stevenschaefer}
+\taxon{daily}
+\date{2025-01-29}
+
+\import{grammar-macros}
+
+\p{
+  I don't exactly understand how guarded recursion works, but I suspect it might be the sort of thing that allows some of these proofs to go through or be simplified.
+}
+
+\p{
+  For instance, the sorts of recursive calls to parsers that aren't structurally recursive, but will be decreasing on the inputted strings.
+}
+
+\p{
+  Also, proofs involving Kleene stars that where I would like to assume the inductive hypothesis on the Kleene star after it has been unrolled once. If I wish to prove [follow last soundness](sss-000V) for the Kleene star of a deterministic regular expression #{r},
+
+##{\notinflast{c}{\star{r}}}
+
+when #{\notinflast{c}{r}} and #{\notinfirst{c}{r}}.
+}
+
+\p{
+  The proof reduceds to unrolling each of the #{\star{r}} and then showing
+  ##{\notinflast{c}{\prn{r \otimes \star{r}}}}
+
+  However, my only strategy for such a proof involves invoking an inductive hypothesis for the #{\star{r}} terms which would currently be circular reasoning. Although, because they are unrolled once, I suspect I may be able to make some sort of guarded argument and make each of these #{\star{r}} to instead be #{\later \star{r}}. Then this would allow me to use the inductive hypothesis?
+}

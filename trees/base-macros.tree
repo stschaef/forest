@@ -108,6 +108,8 @@
 \def\dcoprod[ix]{#{\big-symbol{\coprod_{\prn{\ix}}}}}
 \def\iixprod[ix]{#{\big-symbol{\prod_{\brc{\ix}}}}}
 
+\def\later{#{\triangleright}}
+
 \def\mkset[x][y]{#{\{ \x ~|~ \y \}}}
 
 \def\lam[x]{\lambda{\x}\mathpunct{.}}
