@@ -20,6 +20,8 @@ I am a third-year PhD student at the University of Michigan. I am advised by [Ma
 
 \transclude{publications}
 
+\transclude{talks}
+
 \transclude{teaching}
 
 \transclude{notes}

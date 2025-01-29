@@ -1,14 +1,18 @@
 \title{Intrinsic Verification of Parsers and Formal Grammar Theory in Dependent Lambek Calculus}
-\taxon{reference}
+\date{2024-11-22}
+
 \author{stevenschaefer}
 \author{maxsnew}
 \author{pedrohaamorim}
 \author{nathanvarner}
-\meta{external}{https://github.com/maxsnew/grammars-and-semantic-actions}
-\meta{external}{intrinsic-verification-of-parsers.pdf}
+
+\taxon{reference}
+\meta{slides}{MWPLS.pdf}
+\meta{venue}{[Midwest Programming Languages Summit](https://pl.cs.uchicago.edu/PLSummit/2024/)}
+\tag{talk}
 
 \p{
-  We present Dependent Lambek Calculus, a domain-specific dependent
+  We present [Dependent Lambek Calculus](sss-000I), a domain-specific dependent
   type theory for verified parsing and formal grammar theory. In
   Dependent Lambek Calculus, linear types are used as a syntax for formal grammars,
   and parsers can be written as linear terms. The linear typing
@@ -29,4 +33,3 @@
   the Agda proof assistant. All of our examples parsers have been
   implemented in this prototype implementation.
 }
-
