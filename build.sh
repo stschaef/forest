@@ -1,3 +1,5 @@
-#!/usr/bin/env sh
+#!/usr/bin/env zsh
 
-opam exec -- forester build forest.toml
+eval $(opam env --switch=5.2.0)
+rm -rf output
+forester build forest.toml -v

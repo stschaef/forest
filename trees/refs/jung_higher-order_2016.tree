@@ -1,7 +1,7 @@
 % ["references"]
 \title{Higher-order ghost state}
 \date{2016-09}
-\author{Ralf Jung}\author{Robbert Krebbers}\author{Lars Birkedal}\author{Derek Dreyer}
+\author/literal{Ralf Jung}\author/literal{Robbert Krebbers}\author/literal{Lars Birkedal}\author/literal{Derek Dreyer}
 \taxon{reference}
 \meta{doi}{10.1145/2951913.2951943}
 \meta{external}{https://dl.acm.org/doi/10.1145/2951913.2951943}

@@ -1,7 +1,7 @@
 % ["references"]
 \title{A formal proof of strong equivalence for a grammar conversion from LTAG to HPSG-style}
 \date{2002}
-\author{Naoki Yoshinaga}\author{Yusuke Miyao}\author{Jun’ichi Tsujii}
+\author/literal{Naoki Yoshinaga}\author/literal{Yusuke Miyao}\author/literal{Jun’ichi Tsujii}
 \taxon{reference}
 \tag{parsing}
 

@@ -1,7 +1,7 @@
 % ["references"]
 \title{Homotopy type theory: Univalent foundations of mathematics}
 \date{2013}
-\author{The Univalent Foundations Program}
+\author/literal{The Univalent Foundations Program}
 \tag{typetheory}
 \taxon{reference}
 \meta{external}{https://homotopytypetheory.org/book}

@@ -1,0 +1,17 @@
+\title{Dependent Lambek Calculus}
+\date{2025-02-03T18:56:38Z}
+\author{stevenschaefer}
+
+\import{grammar-macros}
+
+\p{
+  \em{Dependent Lambek Calculus} is introduced [here](sss-000I) as a domain-specific type theory for verified parsing and formal grammar theory.
+}
+
+\p{Here are the definitons that have thus far been encoded in \deplambek.}
+
+\query\datalog{
+ ?X -:
+   {\rel/has-tag ?X '{deplambek}}
+   {\rel/has-taxon ?X '{definition}}
+ }

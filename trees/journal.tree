@@ -3,7 +3,7 @@
 
 \p{This is an attempt to keep a daily research journal.}
 
-\query{
-  \open\query
-  \taxon{daily}
+\query\datalog{
+ ?X -:
+   {\rel/has-taxon ?X '{daily}}
 }

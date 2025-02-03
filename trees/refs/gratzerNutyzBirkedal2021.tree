@@ -1,7 +1,7 @@
 % ["references"]
 \title{Multimodal Dependent Type Theory}
 \date{2021-07}
-\author{Daniel Gratzer}\author{G. A. Kavvos}\author{Andreas Nuyts}\author{Lars Birkedal}
+\author/literal{Daniel Gratzer}\author/literal{G. A. Kavvos}\author/literal{Andreas Nuyts}\author/literal{Lars Birkedal}
 \taxon{reference}
 \tag{typetheory}
 \meta{doi}{10.46298/lmcs-17(3:11)2021}

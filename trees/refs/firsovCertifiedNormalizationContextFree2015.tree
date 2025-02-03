@@ -1,7 +1,7 @@
 % ["references"]
 \title{Certified Normalization of Context-Free Grammars}
 \date{2015-01}
-\author{Denis Firsov}\author{Tarmo Uustalu}
+\author/literal{Denis Firsov}\author/literal{Tarmo Uustalu}
 \taxon{reference}
 \meta{doi}{10.1145/2676724.2693177}
 \meta{external}{https://dl.acm.org/doi/10.1145/2676724.2693177}

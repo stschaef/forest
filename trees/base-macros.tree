@@ -118,6 +118,8 @@
 \def\Lim[arg1]{\operatorname{lim}_{\arg1}}
 \def\Colim[arg1]{\operatorname{colim}_{\arg1}}
 
+\def\sup[x]{#{\mathrm{sup}\prn{x}}}
+
 \def\FinPow[X]{#{\mathcal{P}\Sub{\mathit{fin}}\prn{\X}}}
 \def\Psh{#{\operatorname{Pr}}}
 

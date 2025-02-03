@@ -1,7 +1,7 @@
 % ["references"]
 \title{Greedy regular expression matching}
 \date{2004}
-\author{Alain Frisch}\author{Luca Cardelli}
+\author/literal{Alain Frisch}\author/literal{Luca Cardelli}
 \taxon{reference}
 \tag{parsing}
 

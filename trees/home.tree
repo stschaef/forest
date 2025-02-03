@@ -8,7 +8,7 @@
 }
 
 \p{
-I am a third-year PhD student at the University of Michigan. I am advised by [Max New](maxsnew) and [Jean-Baptiste Jeannin](jeanbaptistejeannin).}
+I am a third-year PhD student at the University of Michigan advised by [Max New](maxsnew).}
 
 \p{I am interested in the mathematical study of programming languages. In particular, I study the application of logic and category theory to the design and implementation of provably correct software.}
 
@@ -24,6 +24,6 @@ I am a third-year PhD student at the University of Michigan. I am advised by [Ma
 
 \transclude{teaching}
 
-\transclude{notes}
+% \transclude{notes}
 
 \transclude{sss-000E}

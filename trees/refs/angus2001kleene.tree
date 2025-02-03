@@ -1,7 +1,7 @@
 % ["references"]
 \title{Kleene algebra with tests and program schematology}
 \date{2001}
-\author{Allegra Angus}\author{Dexter Kozen}
+\author/literal{Allegra Angus}\author/literal{Dexter Kozen}
 \taxon{reference}
 \tag{kalg}
 

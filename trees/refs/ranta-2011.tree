@@ -1,7 +1,7 @@
 % ["references"]
 \title{Grammatical framework: Programming with multilingual grammars}
 \date{2011}
-\author{Aarne Ranta}
+\author/literal{Aarne Ranta}
 \taxon{reference}
 \tag{categorialgrammar}
 \tag{parsing}

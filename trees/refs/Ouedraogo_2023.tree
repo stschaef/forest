@@ -1,7 +1,7 @@
 % ["references"]
 \title{Coqlex: Generating formally verified lexers}
 \date{2023-06}
-\author{Wendlasida Ouedraogo}\author{Gabriel Scherer}\author{Lutz Strassburger}
+\author/literal{Wendlasida Ouedraogo}\author/literal{Gabriel Scherer}\author/literal{Lutz Strassburger}
 \taxon{reference}
 \meta{doi}{10.22152/programming-journal.org/2024/8/3}
 \meta{external}{http://dx.doi.org/10.22152/programming-journal.org/2024/8/3}

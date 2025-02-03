@@ -3,7 +3,6 @@
 \author{stevenschaefer}
 \export{base-macros}
 \taxon{definition}
-\meta{source}{\citek{lambek-1958}}
 
 \p{Lambek's \em{syntactic calculus} comprise the following rules:
 

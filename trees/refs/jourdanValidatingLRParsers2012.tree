@@ -1,7 +1,7 @@
 % ["references"]
 \title{Validating LR(1) Parsers}
 \date{2012}
-\author{Jacques-Henri Jourdan}\author{François Pottier}\author{Xavier Leroy}
+\author/literal{Jacques-Henri Jourdan}\author/literal{François Pottier}\author/literal{Xavier Leroy}
 \taxon{reference}
 \tag{parsing}
 \meta{doi}{10.1007/978-3-642-28869-2_20}

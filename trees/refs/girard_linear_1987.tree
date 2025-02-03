@@ -1,7 +1,7 @@
 % ["references"]
 \title{Linear logic}
 \date{1987}
-\author{Jean-Yves Girard}
+\author/literal{Jean-Yves Girard}
 \taxon{reference}
 \tag{linlog}
 \meta{doi}{https://doi.org/10.1016/0304-3975(87)90045-4}

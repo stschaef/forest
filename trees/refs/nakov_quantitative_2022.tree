@@ -1,7 +1,7 @@
 % ["references"]
 \title{Quantitative Polynomial Functors}
 \date{2022}
-\author{Georgi Nakov}\author{Fredrik Nordvall Forsberg}
+\author/literal{Georgi Nakov}\author/literal{Fredrik Nordvall Forsberg}
 \taxon{reference}
 \meta{doi}{10.4230/LIPIcs.TYPES.2021.10}
 \meta{external}{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TYPES.2021.10}

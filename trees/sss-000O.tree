@@ -3,10 +3,15 @@
 \date{2025-01-23}
 
 \def\make-bib[topic]{
-  \query{
-    \open\query
-    \isect{\tag{\topic}}{\taxon{reference}}
-  }
+  % \query{
+  %   \open\query
+  %   \isect{\tag{\topic}}{\taxon{reference}}
+  % }
+  \query\datalog{
+   ?X -:
+     {\rel/has-tag ?X '{\topic}}
+     {\rel/has-taxon ?X '{reference}}
+   }
 }
 
 \transclude{sss-000P}

@@ -1,7 +1,7 @@
 % ["references"]
 \title{A two-level linear dependent type theory}
 \date{2023}
-\author{Qiancheng Fu}\author{Hongwei Xi}
+\author/literal{Qiancheng Fu}\author/literal{Hongwei Xi}
 \taxon{reference}
 \tag{linlog}
 \meta{external}{https://arxiv.org/abs/2309.08673}

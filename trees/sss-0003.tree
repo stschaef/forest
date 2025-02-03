@@ -3,7 +3,6 @@
 \author{stevenschaefer}
 \export{base-macros}
 \taxon{definition}
-\meta{source}{\citek{lambek-1958}}
 
 \p{Define sequents #{x_1 , x_2 , \dots , x_n \to y} to stand for #{( \dots ((x_1 x_2) x_3) \dots x_n) \to y}
 

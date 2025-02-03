@@ -1,7 +1,7 @@
 % ["references"]
 \title{Interval Parsing Grammars for File Format Parsing}
 \date{2023-06}
-\author{Jialun Zhang}\author{Greg Morrisett}\author{Gang Tan}
+\author/literal{Jialun Zhang}\author/literal{Greg Morrisett}\author/literal{Gang Tan}
 \taxon{reference}
 \tag{parsing}
 \meta{doi}{10.1145/3591264}

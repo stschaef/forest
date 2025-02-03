@@ -1,7 +1,7 @@
 % ["references"]
 \title{Parsing with derivatives: A functional pearl}
 \date{2011-09}
-\author{Matthew Might}\author{David Darais}\author{Daniel Spiewak}
+\author/literal{Matthew Might}\author/literal{David Darais}\author/literal{Daniel Spiewak}
 \taxon{reference}
 \tag{parsing}
 \meta{doi}{10.1145/2034773.2034801}

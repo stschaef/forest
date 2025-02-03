@@ -1,7 +1,7 @@
 % ["references"]
 \title{Symbolic and automatic differentiation of languages}
 \date{2021-08}
-\author{Conal Elliott}
+\author/literal{Conal Elliott}
 \taxon{reference}
 \meta{doi}{10.1145/3473583}
 \tag{parsing}

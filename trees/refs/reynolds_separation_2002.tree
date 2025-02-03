@@ -1,7 +1,7 @@
 % ["references"]
 \title{Separation logic: A logic for shared mutable data structures}
 \date{2002-07}
-\author{J. C. Reynolds}
+\author/literal{J. C. Reynolds}
 \taxon{reference}
 \meta{doi}{10.1109/LICS.2002.1029817}
 \meta{external}{https://ieeexplore.ieee.org/document/1029817}

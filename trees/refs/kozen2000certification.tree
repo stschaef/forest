@@ -1,7 +1,7 @@
 % ["references"]
 \title{Certification of compiler optimizations using kleene algebra with tests}
 \date{2000}
-\author{Dexter Kozen}\author{Maria-Cristina Patron}
+\author/literal{Dexter Kozen}\author/literal{Maria-Cristina Patron}
 \taxon{reference}
 \tag{kalg}
 

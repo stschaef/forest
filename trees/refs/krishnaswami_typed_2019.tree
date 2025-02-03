@@ -1,7 +1,7 @@
 % ["references"]
 \title{A typed, algebraic approach to parsing}
 \date{2019-06}
-\author{Neelakantan R. Krishnaswami}\author{Jeremy Yallop}
+\author/literal{Neelakantan R. Krishnaswami}\author/literal{Jeremy Yallop}
 \taxon{reference}
 \tag{parsing}
 \meta{doi}{10.1145/3314221.3314625}

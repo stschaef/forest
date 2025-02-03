@@ -1,7 +1,7 @@
 % ["references"]
 \title{Derivatives of Regular Expressions}
 \date{1964-10}
-\author{Janusz A. Brzozowski}
+\author/literal{Janusz A. Brzozowski}
 \taxon{reference}
 \tag{parsing}
 \meta{doi}{10.1145/321239.321249}

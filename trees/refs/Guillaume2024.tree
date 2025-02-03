@@ -1,7 +1,7 @@
 % ["references"]
 \title{ACGtk: A toolkit for developing and running abstract categorial grammars}
 \date{2024}
-\author{Maxime Guillaume}\author{Sylvain Pogodalla}\author{Vincent Tourneur}
+\author/literal{Maxime Guillaume}\author/literal{Sylvain Pogodalla}\author/literal{Vincent Tourneur}
 \taxon{reference}
 \meta{doi}{10.1007/978-981-97-2300-3_2}
 \meta{external}{https://doi.org/10.1007/978-981-97-2300-3_2}

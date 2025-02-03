@@ -1,7 +1,7 @@
 % ["references"]
 \title{Concurrent kleene algebra}
 \date{2009}
-\author{CAR Tony Hoare}\author{Bernhard Möller}\author{Georg Struth}\author{Ian Wehrman}
+\author/literal{CAR Tony Hoare}\author/literal{Bernhard Möller}\author/literal{Georg Struth}\author/literal{Ian Wehrman}
 \taxon{reference}
 \tag{kalg}
 

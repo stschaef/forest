@@ -1,7 +1,7 @@
 % ["references"]
 \title{Syntax and Semantics of Linear Dependent Types}
 \date{2015-01}
-\author{Matthijs Vákár}
+\author/literal{Matthijs Vákár}
 \taxon{reference}
 \meta{external}{http://arxiv.org/abs/1405.0033}
 \tag{linlog}

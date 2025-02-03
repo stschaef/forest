@@ -9,6 +9,7 @@
 \def\SPF{#{\mathsf{SPF}}}
 \def\Var{#{\mathsf{Var}}}
 \def\K{#{\mathsf{K}}}
+\def\N{#{\mathbb{N}}}
 \def\map{#{\mathsf{map}}}
 \def\roll{#{\mathsf{roll}}}
 \def\fold{#{\mathsf{fold}}}
@@ -20,8 +21,9 @@
 \def\lto{#{\multimap}}
 \def\tol{\mathbin{\htmlStyle{display:inline-block;transform:rotate(180deg);}{\multimap}}}
 \def\parr{\mathbin{\htmlStyle{display:inline-block;transform:rotate(180deg);}{\And}}}
-\def\String{#{\mathsf{String}}}
-\def\Char{#{\textbf{Char}}}
+\def\String{#{\mathrm{String}}}
+\def\Char{#{\textrm{Char}}}
+\def\char{#{\textrm{char}}}
 \def\stringg{#{\texttt{String}}}
 \def\charg{#{\mathtt{Char}}}
 \def\Set{#{\mathbf{Set}}}
@@ -53,7 +55,6 @@
 
 \def\amp{#{\mathrel{\And}}}
 \def\pair{#{\amp}}
-% \def\bigamp{#{\scalerel*{\equiv}{\bigoplus}}}
 \def\bigamp[ix]{#{\big-symbol{\And_{\prn{\ix}}}}}
 \def\bigopluss[ix]{#{\big-symbol{\oplus_{\prn{\ix}}}}}
 \def\bigwith[ix]{#{\big-symbol{\And_{\prn{\ix}}}}}
@@ -89,7 +90,6 @@
 \def\LinPiTy[arg1][arg2][arg3]{#{\textstyle\bigamp{\arg1 : \arg2}. \arg3}}
 \def\LinSigTy[arg1][arg2][arg3]{#{\textstyle\bigopluss{\arg1 : \arg2}. \arg3}}
 \def\GrTy{#{\mathsf{Gr}}}
-% \def\equalizer[arg1][arg2][arg3]{#{\{\arg1\,|\,\applto{\arg2}{\arg1} = \applto{\arg3}{\arg1} \}}}
 \def\equalizer[arg1][arg2][arg3]{#{\{ \arg1 | \applto{\arg2}{\arg1} = \applto{\arg3}{\arg1} \}}}
 \def\equalizerin[arg1]{#{\langle \arg1 \rangle}}
 \def\equalizerpi[arg1]{#{\arg1.\pi}}
@@ -97,6 +97,8 @@
 \def\ctxwffjdg[arg1][arg2]{#{\arg1 \vdash \arg2 \isTy}}
 \def\linctxwff[arg1][arg2]{#{\arg1 \vdash \arg2 \isLinCtx}}
 \def\linctxwffjdg[arg1][arg2]{#{\arg1 \vdash \arg2 \isLinTy}}
+
+\def\lfp[x][y]{#{\mu \x . \y}}
 
 \def\star[x]{#{{\x}^{*}}}
 

@@ -1,7 +1,7 @@
 % ["references"]
 \title{Integrating Linear and Dependent Types}
 \date{2015-01}
-\author{Neelakantan R. Krishnaswami}\author{Pierre Pradic}\author{Nick Benton}
+\author/literal{Neelakantan R. Krishnaswami}\author/literal{Pierre Pradic}\author/literal{Nick Benton}
 \taxon{reference}
 \tag{linlog}
 \meta{doi}{10.1145/2676726.2676969}

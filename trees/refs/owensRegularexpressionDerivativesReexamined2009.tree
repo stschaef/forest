@@ -1,7 +1,7 @@
 % ["references"]
 \title{Regular-expression derivatives re-examined}
 \date{2009-03}
-\author{Scott Owens}\author{John Reppy}\author{Aaron Turon}
+\author/literal{Scott Owens}\author/literal{John Reppy}\author/literal{Aaron Turon}
 \taxon{reference}
 \meta{doi}{10.1017/S0956796808007090}
 \meta{external}{https://www.cambridge.org/core/product/identifier/S0956796808007090/type/journal_article}

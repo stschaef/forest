@@ -1,5 +1,6 @@
 [forest]
-trees = ["trees" ]                   # The directories in which your trees are stored
-assets = ["assets"]                  # The directories in which your assets are stored
-theme = "theme"                      # The directory in which your theme is stored
-root = "sss-0001"
+trees = ["trees" ]
+assets = ["assets"]
+theme = "theme"
+home = "home"
+host = "stevnenschaefer"

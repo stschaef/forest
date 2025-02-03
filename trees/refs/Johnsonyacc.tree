@@ -1,7 +1,7 @@
 % ["references"]
 \title{Yacc: Yet another compiler-compiler}
 \date{1975}
-\author{Stephen C. Johnson}
+\author/literal{Stephen C. Johnson}
 \tag{parsing}
 \taxon{reference}
 

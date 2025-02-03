@@ -1,7 +1,7 @@
 % ["references"]
 \title{Logics for context-free languages}
 \date{1995}
-\author{Clemens Lautemann}\author{Thomas Schwentick}\author{Denis Thérien}
+\author/literal{Clemens Lautemann}\author/literal{Thomas Schwentick}\author/literal{Denis Thérien}
 \taxon{reference}
 \meta{doi}{10.1007/BFb0022257}
 \tag{parsing}

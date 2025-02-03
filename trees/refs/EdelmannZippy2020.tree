@@ -1,7 +1,7 @@
 % ["references"]
 \title{Zippy LL(1) parsing with derivatives}
 \date{2020}
-\author{Romain Edelmann}\author{Jad Hamza}\author{Viktor Kunčak}
+\author/literal{Romain Edelmann}\author/literal{Jad Hamza}\author/literal{Viktor Kunčak}
 \taxon{reference}
 \meta{doi}{10.1145/3385412.3385992}
 \meta{external}{https://doi.org/10.1145/3385412.3385992}
