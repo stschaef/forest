@@ -1,0 +1,58 @@
+\title{Using the Subobject Classifier}
+\date{2025-02-06T22:49:00Z}
+\author{stevenschaefer}
+\taxon{daily}
+
+\import{grammar-macros}
+
+\p{
+  Previously in Agda we had constructed [equalizers](sss-001L) in \deplambek using [sigma types](sss-001M). Further, equalizers form [subobjects](sss-001P), which may be comprehended as maps from a type into a subobject classifier.
+}
+
+\p{
+I believe in our formalization we want to generalize this idea to a broader class of subobjects, maybe even all of them. That is, we could define a [subobject classifying grammar](sss-001N) #{\Omega}. Then we can internally define any predicate on a grammar #{g} via a term #{p : g \vdash \Omega}.
+}
+
+\p{
+That is, forall #{w : \String} we have #{\define{\sem{\Omega}(w)}{\mathsf{hProp}}}, and
+
+##{
+\define{\sem{\mathsf{subgrammar}(g)(p)}(w)}{\SigTy{x}{\sem{g}(w)}{\sem{p}(x)}}}
+
+}
+
+\p{
+The code for this is nearly identical to the defintion of equalizers as sigma types, and I have even built a translation of the equalizers code that is defined with this as its foundation. I have not yet tested if either implementation is preferable.
+}
+
+% -- It isn't clear to me how to best expose this syntactically in
+% -- the language
+% --
+% -- Even if these aren't exposed in the language itself, it gives
+% -- a nice interface to easily axiomatize a
+% -- selection of propositions
+% --
+% -- We could just add in constructs to the language like we did
+% -- with equalizers, although I'm not sure if we'd need to restrict
+% -- the type of propositions of not
+% -- For instance, in the cases we care about, we could just
+% -- restrict the language of propositions you can perform the
+% -- following constructions on to be something like
+% --    - the proposition that two maps are equal, recovering
+% --      the definition of equalizers
+% --    - the proposition that some grammar is uninhabited. For example
+% --      you could take the subgrammar of g that doesn't start
+% --      with the character c
+% --      -  which would be the subgrammar over the proposition
+% --         that g & (＂ c ＂ ⊗ ⊤) ⊢ ⊥
+\p{
+ It isn't yet clear how to best expose this sort of construct syntactically. I suppose you could assume some subobject classifying grammar, but then I don't know if you can then reap the benefits of the propositions internally. That is, how do you reflect the proposition that two terms are equal in the internal language of propositions rather than the external one?
+}
+
+\p{
+  If nothing else, this code gives me a reusable interface to axiomatize smaller, sandboxed ways in which I'd like to internalize certain types of propositions (such as "two terms are equal" or "does not begin with the character #{c}").
+}
+
+\p{
+  The hope for this code is that it let's me inductively prove the [follow last soundness](sss-000V) of Kleene star.
+}

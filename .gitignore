@@ -4,3 +4,4 @@ build/
 *.aux
 *.log
 *.log
+/_tmp/

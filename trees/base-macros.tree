@@ -110,6 +110,9 @@
 
 \def\later{#{\triangleright}}
 
+\def\into{#{\hookrightarrow}}
+\def\onto{#{\twoheadrightarrow}}
+
 \def\mkset[x][y]{#{\{ \x ~|~ \y \}}}
 
 \def\lam[x]{\lambda{\x}\mathpunct{.}}
@@ -126,9 +129,6 @@
 
 \def\citek[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
 
-
-
-
 \xmlns:jms-indent{jonmsterling:indenting}
 
 \def\iblock[body]{
@@ -138,6 +138,12 @@
 \def\irow[body]{
  \<jms-indent:row>{\body}
 }
+
+\def\tikzfig[a]{\texfig{\startverb\begin{minipage}{1.1\linewidth}
+        \begin{figure}[H]\centering\stopverb\a\startverb\end{figure}
+        \end{minipage}\stopverb}}
+
+\def\define[x][y]{#{\x \colonequals \y}}
 
 
 \p{This tree defines the basic notational macros used across my forest.}

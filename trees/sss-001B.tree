@@ -6,10 +6,9 @@
 \author{pedrohaamorim}
 \author{nathanvarner}
 
-\taxon{reference}
+\taxon{talk}
 \meta{slides}{MWPLS.pdf}
 \meta{venue}{[Midwest Programming Languages Summit](https://pl.cs.uchicago.edu/PLSummit/2024/)}
-\tag{talk}
 
 \p{
   We present [Dependent Lambek Calculus](sss-000I), a domain-specific dependent
