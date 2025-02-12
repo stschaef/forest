@@ -3,6 +3,6 @@
 \author{stevenschaefer}
 
 \ul{
-  \li{Correct-by-construction parsing}
+  \li{[[sss-0026]]}
   \li{Mechanized category theory in Agda}
 }

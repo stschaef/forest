@@ -1,0 +1,18 @@
+\title{Attempting to Prove Deterministic Regular Expressions are Unambiguous}
+\date{2025-02-12T20:49:18Z}
+\author{stevenschaefer}
+\taxon{daily}
+
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\p{
+I can easily show that the #{\epsilon}, literal, #{\bot}, and #{\oplus} of a deterministic regular expression are unambiguous. However, the concatenation case is troubling due to [[sss-0020]].
+}
+
+\p{
+I have some thoughts about how this could be proven by appealing to some internal proof of finiteness of grammars.
+}
+
+\transclude{sss-0022}

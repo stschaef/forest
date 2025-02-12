@@ -25,5 +25,5 @@
 }
 
 \p{
-  Let #{\define{A}{\LinSigTy{n}{\mathbb{N}}{\top}}}. #{A} is finitely unambiguous but not unambiguous. The isomorphism bewteen #{A} and #{A \And A} amounts to build a bijection between #{\mathbb{N}} and #{\mathbb{N} \times \mathbb{N}}, which is straightforward.
+  Let #{\define{A}{\LinSigTy{n}{\mathbb{N}}{\top}}}. #{A} is finitely unambiguous but not unambiguous. The isomorphism bewteen #{A} and #{A \And A} amounts to building a bijection between #{\mathbb{N}} and #{\mathbb{N} \times \mathbb{N}}, which is straightforward.
 }

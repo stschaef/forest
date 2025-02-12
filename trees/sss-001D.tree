@@ -3,6 +3,8 @@
 \taxon{daily}
 \date{2025-01-31}
 
+\tag{deplambek}
+
 \p{
   I have been stuck on the proof of [follow last soundness](sss-000V) for the Kleene star case for a few days. To the point of considering guarded recursion.
 }

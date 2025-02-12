@@ -3,10 +3,11 @@
 \author{stevenschaefer}
 \taxon{daily}
 
+\tag{deplambek}
 \import{grammar-macros}
 
 \p{
-  [Here](sss-001Q), I mention that the definition of follow last sets in the Agda formalization needs to be changed to match the definitions used in \citek{krishnaswami_typed_2019} and \citek{bruggemannkleinwood}.
+  In [[sss-001Q]], I mention that the definition of follow last sets in the Agda formalization needs to be changed to match the definitions used in \citek{krishnaswami_typed_2019} and \citek{bruggemannkleinwood}.
 }
 
 \p{
@@ -19,7 +20,7 @@ Instead I had define follow last sets as
 \transclude{sss-0011}
 
 \p{
-  It turns out the original definitions I used aren't incorrect, instead the follow last set of a disjunction must be augmented. In \citek{krishnaswami_typed_2019} and \citek{bruggemannkleinwood}, the follow last sets of a disjunction obey a very aesthetic equality,
+  It turns out the original definitions I used aren't incorrect, instead the follow last set of a disjunction must be augmented. In [[krishnaswami_typed_2019]] and [[bruggemannkleinwood]], the follow last sets of a disjunction obey a very aesthetic equality,
 ##{\flast{A \oplus B} = \flast{A} \cup \flast{B}}
 }
 

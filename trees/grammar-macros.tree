@@ -98,6 +98,8 @@
 \def\linctxwff[arg1][arg2]{#{\arg1 \vdash \arg2 \isLinCtx}}
 \def\linctxwffjdg[arg1][arg2]{#{\arg1 \vdash \arg2 \isLinTy}}
 
+\def\Or{#{\oplus}}
+
 \def\lfp[x][y]{#{\mu \x . \y}}
 
 \def\Alph{#{\mathcal{A}}}

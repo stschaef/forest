@@ -3,6 +3,7 @@
 \author{stevenschaefer}
 \taxon{daily}
 
+\tag{deplambek}
 \import{grammar-macros}
 
 \transclude{sss-001W}
