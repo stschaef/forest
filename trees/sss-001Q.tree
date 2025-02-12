@@ -16,6 +16,6 @@
 }
 
 \p{
- Or at least that's what they have in [Neel's paper]{krishnaswami_typed_2019}. Max believes I should have a more compelling argument for which definition is better/more appropriate, which is fair enough. The best argument I have thus far is that our original definition would break the property that
+ Or at least that's what they have in [Neel's paper](krishnaswami_typed_2019). Max believes I should have a more compelling argument for which definition is better/more appropriate, which is fair enough. The best argument I have thus far is that our original definition would break the property that
  ##{\flast{A \oplus B} = \flast{A} \cup \flast{B}}
 }

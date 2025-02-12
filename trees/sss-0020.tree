@@ -1,0 +1,24 @@
+\title{Issues with Unambiguity Definitions}
+\date{2025-02-12T04:34:56Z}
+\author{stevenschaefer}
+\taxon{daily}
+
+\import{grammar-macros}
+
+\transclude{sss-001W}
+
+\p{
+  The definitional issues from above can be resolved by a better definition,
+}
+
+\transclude{sss-001Z}
+
+\p{
+However, this doesn't necessarily help proofs of unambiguity. For instance, proving that sequentially unambiguous #{A} and #{B}, each of which are unambiguous, form an unambigous tensor.
+}
+
+\p{
+I can show
+##{A \otimes B \cong (A \And A) \otimes (B \And B) \cong (A \otimes B) \And (A \otimes B)}
+but this isomorphism isn't carried by #{\Delta}, so this isomorphism doesn't prove unambiguity.
+}

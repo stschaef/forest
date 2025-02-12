@@ -1,0 +1,16 @@
+\title{Finite Unambiguity}
+\date{2025-02-12T04:01:40Z}
+\author{stevenschaefer}
+\taxon{definition}
+
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\p{
+  Define a grammar #{A} to be \em{finitely unambiguous} if #{A \And A \cong A}.
+}
+
+\p{
+  There is likely a better name for this.
+}

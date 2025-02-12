@@ -1,0 +1,14 @@
+\title{Star Continuity is a Semantic Property}
+\date{2025-02-12T03:45:51Z}
+\author{stevenschaefer}
+
+\tag{deplambek}
+\import{grammar-macros}
+
+\p{
+[Star continuity in \deplambek](sss-001H) can often be a convenient proof technique, but its important to remember that this shouldn't be the first line of defense.
+}
+
+\p{
+Star continuity holds in the Agda model, but does it hold in the syntactic model? I believe that it does because of the presence of the indexed coproducts. So perhaps it isn't so sinister after all. It is worth noting that much of the reason performed by inducting on the length of a Kleene star isn't very elegant. If a proof necessitates star continuity, then it doesn't seem to be aided greatly by the type system.
+}

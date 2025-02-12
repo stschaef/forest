@@ -1,0 +1,18 @@
+\title{Unambiguity as Unique Map into Codomain}
+\date{2025-02-12T03:58:14Z}
+\author{stevenschaefer}
+\taxon{definition}
+
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\p{
+  A grammar #{A} is \em{unambiguous} if for all grammars #{B} and maps #{e , e' : A \vdash B} we have #{e = e'}.
+}
+
+\p{
+In a category with terminal objects, this is equivalent to unambiguity defined via subterminality.
+}
+
+\transclude{sss-001T}
