@@ -5,7 +5,7 @@
 \author{pedrohaamorim}
 \author{nathanvarner}
 \meta{external}{https://github.com/maxsnew/grammars-and-semantic-actions}
-\meta{external}{intrinsic-verification-of-parsers.pdf}
+\meta{external}{\route-asset{assets/intrinsic-verification-of-parsers.pdf}}
 
 \p{
   We present Dependent Lambek Calculus, a domain-specific dependent

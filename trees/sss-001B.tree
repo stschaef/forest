@@ -7,7 +7,7 @@
 \author{nathanvarner}
 
 \taxon{talk}
-\meta{slides}{MWPLS.pdf}
+\meta{slides}{\route-asset{assets/MWPLS.pdf}}
 \meta{venue}{[Midwest Programming Languages Summit](https://pl.cs.uchicago.edu/PLSummit/2024/)}
 
 \p{

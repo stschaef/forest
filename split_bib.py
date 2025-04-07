@@ -166,7 +166,7 @@ for i, reference in enumerate(references):
         date=format_date(reference['issued']['date-parts'][0]),
         meta_doi=format_doi(reference),
         meta_external=format_external(reference),
-        authors=''.join([f'\\author{{{format_author(author)}}}' for author in reference['author']]),
+        authors=''.join([f'\\author/literal{{{format_author(author)}}}' for author in reference['author']]),
         original_bibtex=original_bibtex)
 
     if tree_file_i.exists():

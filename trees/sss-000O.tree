@@ -10,8 +10,6 @@
    }
 }
 
-\transclude{sss-000P}
-\transclude{sss-000Q}
-\transclude{sss-000R}
-\transclude{sss-000S}
-\transclude{sss-000T}
+\query\datalog{
+  ?X -: {\rel/has-tag ?X '{bibliography}}
+}

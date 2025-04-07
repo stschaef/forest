@@ -1,6 +1,9 @@
 [forest]
-trees = ["trees" ]
+host = "stevnenschaefer"
+trees = ["trees"]
 assets = ["assets"]
 theme = "theme"
+url = "https://stevenschaefer.net"
+
+[renderer]
 home = "home"
-host = "stevnenschaefer"
