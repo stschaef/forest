@@ -1,0 +1,13 @@
+\title{FollowLast Sets in \deplambek}
+\author{stevenschaefer}
+\taxon{definition}
+\date{2025-01-24}
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\p{
+  The [followlast set](sss-0010) of a grammar #{A} may be captured in \deplambek via the following proposition:
+
+  ##{ c \not \in \flast{A} := A \And (A \otimes \literal{c} \otimes \top) \vdash \bot}
+}

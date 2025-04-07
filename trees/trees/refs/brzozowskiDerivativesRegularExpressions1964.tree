@@ -1,0 +1,27 @@
+% ["references"]
+\title{Derivatives of Regular Expressions}
+\date{1964-10}
+\author/literal{Janusz A. Brzozowski}
+\taxon{reference}
+\tag{parsing}
+\meta{doi}{10.1145/321239.321249}
+\meta{external}{https://dl.acm.org/doi/10.1145/321239.321249}
+
+\meta{bibtex}{\startverb
+@article{brzozowskiDerivativesRegularExpressions1964,
+ title = {Derivatives of {Regular} {Expressions}},
+ author = {Brzozowski, Janusz A.},
+ year = {1964},
+ doi = {10.1145/321239.321249},
+ url = {https://dl.acm.org/doi/10.1145/321239.321249},
+ urldate = {2024-04-29},
+ journal = {Journal of the ACM},
+ volume = {11},
+ number = {4},
+ pages = {481--494},
+ file = {Full Text PDF:/Users/stevenschaefer/Zotero/storage/CMQXUWQR/Brzozowski - 1964 - Derivatives of Regular Expressions.pdf:application/pdf},
+ month = {October},
+ language = {en},
+ issn = {0004-5411, 1557-735X}
+}
+\stopverb}

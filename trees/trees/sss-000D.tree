@@ -1,0 +1,8 @@
+\title{Semantic Category Examples}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\meta{source}{\citek{dougherty-1993}}
+\taxon{definition}
+
+\p{The only concrete example proposed by Dougherty give semantics in a presheaf category over a set of possible worlds. One of our insights is that by taking this to be presheaves over strings themselves, then we recover a universal semantics.}

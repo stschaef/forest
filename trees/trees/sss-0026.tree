@@ -1,0 +1,19 @@
+\title{Correct-by-Construction Parsing}
+\date{2025-02-12T20:57:35Z}
+\author{stevenschaefer}
+
+\p{
+I am interested in leveraging type theory to develop a programming language that carries intrinsic proofs of parser correctness. That is, if a parser written in such a language compiles then we may guarantee the resulting program is sound with respect to parsing semantics.
+}
+
+\p{
+In many otherwise verified software developments, the frontend is often unverified or of the final component that is verified. Further, even when they're verified, distinct parser implementations often leverage disparate grammar formalisms. The work spent in one verified development often does not port over nicely to another. Thus, we imagine an extensible, unifying framework to tie together the related (but formally disjoint) efforts found in verified parsing implementations and formal language/grammar theory.
+}
+
+\p{
+I first worked on this in [[sss-000I]]. My own notes and sketches of ongoing work in the same formal system may be found below and throughout this site.
+}
+
+\query\datalog{
+  ?X -: {\rel/has-tag ?X '{deplambek}}
+}

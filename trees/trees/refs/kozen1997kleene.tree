@@ -1,0 +1,14 @@
+% ["references"]
+\title{Kleene algebra with tests}
+\date{1997}
+\author/literal{Dexter Kozen}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@article{kozen1997kleene,
+ title = {Kleene algebra with tests},
+ author = {Kozen, Dexter},
+ year = {1997},
+ journal = {ACM Transactions on Programming Languages and Systems (TOPLAS)}
+}
+\stopverb}

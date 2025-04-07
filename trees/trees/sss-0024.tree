@@ -1,0 +1,14 @@
+\title{Constant Presheaf}
+\date{2025-02-12T20:21:29Z}
+\author{stevenschaefer}
+\taxon{definition}
+
+\import{base-macros}
+
+\p{
+  The \em{constant} presheaf of a set #{X} on a category #{C} is a functor #{\Delta(X) : C\Sup{op} \to \Set} such that
+}
+
+##{\define{\Delta(X)c}{X}}
+
+\p{I often call this \em{the discrete presheaf for #{X}}, but I don't know if that's standard.}

@@ -1,0 +1,17 @@
+% ["references"]
+\title{Finding and Understanding Bugs in C Compilers}
+\date{2011}
+\author/literal{Xuejun Yang}\author/literal{Yang Chen}\author/literal{Eric Eide}\author/literal{John Regehr}
+\taxon{reference}
+\meta{doi}{10.1145/1993316.1993532}
+
+\meta{bibtex}{\startverb
+@article{yangFindingUnderstandingBugs,
+ title = {Finding and {Understanding} {Bugs} in {C} {Compilers}},
+ author = {Yang, Xuejun and Chen, Yang and Eide, Eric and Regehr, John},
+ year = {2011},
+ doi = {10.1145/1993316.1993532},
+ language = {en},
+ abstract = {Compilers should be correct. To improve the quality of C compilers, we created Csmith, a randomized test-case generation tool, and spent three years using it to ﬁnd compiler bugs. During this period we reported more than 325 previously unknown bugs to compiler developers. Every compiler we tested was found to crash and also to silently generate wrong code when presented with valid input. In this paper we present our compiler-testing tool and the results of our bug-hunting study. Our ﬁrst contribution is to advance the state of the art in compiler testing. Unlike previous tools, Csmith generates programs that cover a large subset of C while avoiding the undeﬁned and unspeciﬁed behaviors that would destroy its ability to automatically ﬁnd wrong-code bugs. Our second contribution is a collection of qualitative and quantitative results about the bugs we have found in open-source C compilers.}
+}
+\stopverb}

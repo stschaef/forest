@@ -1,0 +1,11 @@
+\title{Kleene Algebra}
+\date{2025-01-23}
+\import{sss-000O}
+
+\tag{bibliography}
+
+\p{
+  A collection of resources about Kleene algebra.
+}
+
+\make-bib{kalg}

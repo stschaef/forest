@@ -1,0 +1,32 @@
+\title{Greediness as a Predicate on Grammars?}
+\date{2025-02-19T05:05:20Z}
+\author{stevenschaefer}
+\taxon{daily}
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\def\isgreedy{#{\mathsf{isGreedy}}}
+\def\stringof{#{\mathsf{stringOf}}}
+
+\p{
+I am not quite sure how to make everything precise, but I believe that [greediness](sss-002A) may be expressible as a [predicate](sss-001K) on tensors.
+}
+
+\p{
+For instance, we may hope to define greediness as something like #{\isgreedy : A \otimes B \vdash \Omega}
+
+##{\define{\isgreedy~w~(s, a , b)}{\not \exists (s' , a' , b') \in (A \otimes B) w . \stringof(a) < \stringof(a')}}
+}
+
+\p{
+Where above I mean for #{w, w' : \String}, we define #{w < w'} to mean that #{w} is a proper prefix of #{w'}.
+}
+
+\p{
+In English, this attempt at a definiton would read as : a parse of #{A \otimes B} is greedy if there is no parse of #{A \otimes B} for the same string where the parse of #{A} occurs over a larger substring.
+}
+
+\p{
+This definiton cannot work exactly, as it is solely a semantic definiton. Yet it feels close to being workable internally.
+}

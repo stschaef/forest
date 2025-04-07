@@ -1,0 +1,17 @@
+\title{Kleene Star in \deplambek}
+\date{2025-02-03T19:03:14Z}
+\author{stevenschaefer}
+\taxon{definition}
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\p{
+  For a grammar #{A}, the Kleene star \star{A} is defined as a least-fixed point,
+
+  ##{\lfp{x}{\epsilon \oplus \prn{A \otimes x}}}
+}
+
+\p{
+  In \deplambek, it is derivable that #{\star{A} \cong \lfp{x}{\epsilon \oplus \prn{x \otimes A}}}.
+}

@@ -1,0 +1,7 @@
+\title{Talks}
+\meta{author}{false}
+
+\query\datalog{
+ ?X -:
+   {\rel/has-taxon ?X '{talk}}
+}

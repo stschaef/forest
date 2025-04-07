@@ -1,0 +1,10 @@
+\title{Distributed Systems Verification}
+\date{2025-02-19T16:17:50Z}
+
+\import{sss-000O}
+
+\tag{bibliography}
+
+\p{A collection of resources about destributed system verification and generation of inductive invariants.}
+
+\make-bib{distributedsystems}

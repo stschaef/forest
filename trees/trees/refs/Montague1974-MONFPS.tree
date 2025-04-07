@@ -1,0 +1,17 @@
+% ["references"]
+\title{Formal philosophy: Selected papers of richard montague}
+\date{1974}
+\author/literal{Richard Montague}
+\taxon{reference}
+\tag{categorialgrammar}
+
+\meta{bibtex}{\startverb
+@book{Montague1974-MONFPS,
+ title = {Formal Philosophy: Selected Papers of Richard Montague},
+ author = {Richard Montague},
+ year = {1974},
+ editor = {},
+ publisher = {Yale University Press},
+ address = {New Haven,}
+}
+\stopverb}

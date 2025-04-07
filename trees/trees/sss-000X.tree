@@ -1,0 +1,11 @@
+\title{LL(1) Condition}
+\taxon{definition}
+\date{2025-01-24}
+
+\p{
+  A context-free grammar satisfies the \em{LL(1) condition} if it satisfies the following three conditions:
+  \ul{
+    \li{All of its productions have pairwise disjoint }
+
+  }
+}

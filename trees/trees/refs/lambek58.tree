@@ -1,0 +1,23 @@
+% ["references"]
+\title{The mathematics of sentence structure}
+\date{1958}
+\author/literal{Joachim Lambek}
+\taxon{reference}
+\meta{doi}{10.1080/00029890.1958.11989160}
+\meta{external}{https://doi.org/10.1080/00029890.1958.11989160}
+\tag{categorialgrammar}
+
+\meta{bibtex}{\startverb
+@article{lambek58,
+ title = {The Mathematics of Sentence Structure},
+ author = {Joachim Lambek},
+ year = {1958},
+ doi = {10.1080/00029890.1958.11989160},
+ url = {https://doi.org/10.1080/00029890.1958.11989160},
+ journal = {The American Mathematical Monthly},
+ volume = {65},
+ number = {3},
+ pages = {154--170},
+ publisher = {Taylor \& Francis}
+}
+\stopverb}

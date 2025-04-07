@@ -1,0 +1,7 @@
+\title{Cookbook}
+\author{stevenschaefer}
+
+\query\datalog{
+ ?X -:
+   {\rel/has-taxon ?X '{Recipe}}
+ }

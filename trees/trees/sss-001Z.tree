@@ -1,0 +1,16 @@
+\title{Unambiguity via the Diagonal Being an Isomorphism}
+\date{2025-02-12T04:29:24Z}
+\author{stevenschaefer}
+\taxon{definition}
+
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\p{
+  [Finite unambiguity](sss-001V) does not serve as an adequate definition of unambiguity that is equivalent to \citek{sss-001T} and \citek{sss-001U}. However, the definition attempted via finite unambiguity can be refined to something that is equivalent to these.
+}
+
+\p{
+A grammar #{A} is unambiguous if #{\Delta : A \vdash A \And A} is an isomorphism. Equivalently, #{A} is unambiguous if #{\pi\Sub{1} : A \And A \vdash A} and #{\pi\Sub{2} : A \And A \vdash A} are equal.
+}

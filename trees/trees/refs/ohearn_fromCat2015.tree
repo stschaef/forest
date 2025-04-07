@@ -1,0 +1,20 @@
+% ["references"]
+\title{From categorical logic to facebook engineering}
+\date{2015}
+\author/literal{Peter O’Hearn}
+\taxon{reference}
+\meta{doi}{10.1109/LICS.2015.11}
+
+\meta{bibtex}{\startverb
+@inproceedings{7174865,
+ title = {From Categorical Logic to Facebook Engineering},
+ author = {O'Hearn, Peter},
+ year = {2015},
+ doi = {10.1109/LICS.2015.11},
+ booktitle = {2015 30th Annual ACM/IEEE Symposium on Logic in Computer Science},
+ volume = {},
+ number = {},
+ pages = {17-20},
+ keywords = {Semantics;Facebook;Computer science;Mathematical model;Cognition;Syntactics;Shape}
+}
+\stopverb}

@@ -1,0 +1,15 @@
+\title{Bibliographies}
+\author{stevenschaefer}
+\date{2025-01-23}
+
+\def\make-bib[topic]{
+  \query\datalog{
+   ?X -:
+     {\rel/has-tag ?X '{\topic}}
+     {\rel/has-taxon ?X '{reference}}
+   }
+}
+
+\query\datalog{
+  ?X -: {\rel/has-tag ?X '{bibliography}}
+}

@@ -1,0 +1,27 @@
+\title{Another Attempt Towards Greediness?}
+\date{2025-02-21T14:26:37Z}
+\author{stevenschaefer}
+\taxon{daily}
+
+\tag{deplambek}
+
+\import{grammar-macros}
+
+\def\isgreedy{#{\mathsf{isGreedy}}}
+\def\stringof{#{\mathsf{stringOf}}}
+
+\p{It occurs to me that [[sss-002B]] may be more accurately characterized as "longest-match" instead of "[greediness](sss-002A)", but that does not matter too much. A first step is encoding any disambiguation strategy.}
+
+\p{
+[[frischCardelli]] offers a way to break ambiguities introduced by sums and Kleene star. To capture the greedy parsers involve Kleene stars, we may be able to do a much simpler and naive approach.
+}
+
+##{\star{A} \otimes \prn{B \And \neg \prn{A \otimes \top}} \subset \star{A} \otimes B}
+
+\p{That is, maybe you can simply restrict the type to make it so the parses following a Kleene star cannot contain a source of ambiguity with respect to that Kleene star. At a first glance, semantically this should enforce the same greediness you'd expect, but I'm not sure how much of this is workable syntactically.}
+
+\p{
+Similarly, you may be able to disambiguate sums by preferring the left summand.
+}
+
+##{A \oplus \prn{B \And \neg A} \subset A \oplus B}

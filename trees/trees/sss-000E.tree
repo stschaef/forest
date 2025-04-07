@@ -1,0 +1,7 @@
+\title{About This Website}
+\author{stevenschaefer}
+\date{2024-08-06}
+
+\p{I built this website using [Forester](https://www.forester-notes.org).}
+
+\p{You may search through this site using \code{Ctrl-k}.}

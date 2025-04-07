@@ -1,0 +1,29 @@
+\title{Steven Schaefer}
+\author{stevenschaefer}
+\meta{author}{false}
+
+\p{
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\<html:img>[src]{\route-asset{assets/headshot.jpeg}}[width]{250}[height]{250}{}
+}
+
+\p{
+I am a third-year PhD student at the University of Michigan advised by [Max New](https://maxsnew.com).}
+
+\p{I am interested in the mathematical study of programming languages. In particular, I study the application of logic and category theory to the design and implementation of provably correct software.}
+
+\transclude{sss-000F}
+
+\transclude{contact}
+
+\put\transclude/expanded{false}
+
+\transclude{publications}
+
+\transclude{talks}
+
+\transclude{teaching}
+
+% \transclude{notes}
+
+\transclude{sss-000E}

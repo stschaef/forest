@@ -1,0 +1,36 @@
+\title{Finite Cardinal Arithmetic in a Topos}
+\date{2025-02-12T20:09:03Z}
+\author{stevenschaefer}
+\meta{external}{\citek{johnstone-2002}}
+
+\import{base-macros}
+\def\suc{\mathsf{suc}}
+
+\p{
+  In a topos with a natural numbers object #{(N, z , s)}, you can define finite cardinals as objects that arise as the pullback along a morphism #{p : \top \to N} of the generic finite cardinal. Write #{[p]} for the cardinal corresponding to #{p}.
+}
+
+\p{
+  The above characterization is a little obtuse and does warrant some more explanation. One way to make it more concrete is that #{[z] = \bot} and #{[s \circ n] = \top \oplus [n]}, and that finite cardinals warrant a nice induction principle. If #{P} is a property expressible in the internal language such that #{\bot} satisfies #{P}, and that whenever #{A} satisfies #{P} then #{\top \oplus A} satisfies #{P}; then every finite cardinal satisfies #{P}. That is, #{P} forms a #{(z,s)}-closed subobject of #{N} and thus #{P} is all of #{N}.
+}
+
+\def\N{#{\Delta(\mathbb{N})}}
+
+\p{
+  My working mental model is in a presheaf topos, where the natural numbers object can be defined explicity as \N .
+}
+
+\transclude{sss-0024}
+
+\p{
+ The finite cardinals with respect to \N can be characterized then as,
+}
+
+##{ \define{[0]}{\bot} }
+##{ \define{[\mathsf{suc}(n)]}{\top \oplus [n]} }
+
+\p{These obey nice algebraic properties.}
+
+##{ [nm] \cong [n] \times [m] }
+##{ [n + m] \cong [n] \oplus [m] }
+##{ [n\Sup{m}] \cong [m] \to [n] }

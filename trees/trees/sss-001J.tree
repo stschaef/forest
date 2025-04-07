@@ -1,0 +1,22 @@
+\title{Deterministic Automata as Coalgebras}
+\date{2025-02-03T19:19:53Z}
+\author{stevenschaefer}
+\meta{source}{\citek{winterCFL}}
+
+\import{grammar-macros}
+
+\p{
+  For a fixed, finite alphabet \Alph, a deterministic automaton can be identified with coalgebras of the functor #{D(X) = 2 \times X\Sup{\Alph}}.
+}
+
+\p{
+  The final coalgebra encodes all languages, and regular languages are the ones corresponding to finite #{D}-coalgebras. More precisely, a language is regular if it is in the image of the final homomorphism from a finite coalgebra to the coalgebra of all languages.
+}
+
+\p{
+  You may view a #{D}-coalgebra #{X} as a state machine through the lens of Brzozowski derivatives. The boolean flag marks if the initial state of #{X} is accepting or not, and the functions #{X\Sup{\Alph}} define the transitions labelled by each character from this single state to the initial states of more automata. Gathering all of these up into a single transition system describes a (potentially infinite) deterministic automaton.
+}
+
+\p{
+  The identification between regular languages and finite colagebras arises when the resulting automaton has only finitely many states (up to an appropriate equivalence). Although, it may be unclear what we mean when we count two states as "the same". When building a DFA with Brzozowski derivatives, we characterize each of these coalgebras up to weak equivalence. Thus, we need to decidably check when two of these languages are the same. This is harder to generalize to the context-free case as context-free language equivalence is undecidable.
+}

@@ -1,0 +1,18 @@
+\title{Sequents in the Syntactic Calculus}
+\date{2024-08-06}
+\author{stevenschaefer}
+\export{base-macros}
+\taxon{definition}
+
+\p{Define sequents #{x_1 , x_2 , \dots , x_n \to y} to stand for #{( \dots ((x_1 x_2) x_3) \dots x_n) \to y}
+
+\ul{
+  \li{#{x \to x}}
+  \li{if #{T , y \to x} then #{T \to x/y}}
+  \li{if #{y , T \to x} then #{T \to y \backslash x}}
+  \li{if #{T \to y} and #{U, x , V \to z} then #{U , x/y , T , V \to z}}
+  \li{if #{T \to y} and #{U, x , V \to z} then #{U , T, y \backslash x , V \to z}}
+  \li{if #{U , x , y , V \to z} then #{U , xy , V \to z}}
+  \li{if #{P \to x} and #{Q \to y} then #{P, Q \to xy}}
+}
+}
