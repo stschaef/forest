@@ -1,0 +1,12 @@
+\title{Real World Parsing Vulnerabilites}
+\author{stevenschaefer}
+\date{2025-04-29T02:07:36Z}
+
+\p{[CoStar](lasserCostarVerifiedALL2021) mentions several critical vulnerabilites that follow from faulty parser.}
+
+% leaked user data 15
+\transclude{sss-002Q}
+
+% credit 13,27
+
+% RCE 14,20,26,28

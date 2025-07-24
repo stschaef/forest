@@ -1,0 +1,10 @@
+\title{Research Journal}
+\author{stevenschaefer}
+\date{2025-01-24}
+
+\p{This is an attempt to keep a daily research journal.}
+
+\query\datalog{
+ ?X -:
+   {\rel/has-taxon ?X '{daily}}
+}

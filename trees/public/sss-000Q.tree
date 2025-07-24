@@ -1,0 +1,11 @@
+\title{Parsing}
+\date{2025-01-23}
+\import{bibs}
+
+\tag{bibliography}
+
+\p{
+  A collection of resources about parsing.
+}
+
+\make-bib{parsing}

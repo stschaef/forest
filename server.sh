@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+rm -rf output
 # Start the Python server in the background
 python3 -m http.server 1313 -d output &
 # Save the process ID of the Python server

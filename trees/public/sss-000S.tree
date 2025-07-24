@@ -1,0 +1,11 @@
+\title{Linear Logic}
+\date{2025-01-23}
+\import{bibs}
+
+\tag{bibliography}
+
+\p{
+  A collection of resources about linear logic and linear type systems.
+}
+
+\make-bib{linlog}

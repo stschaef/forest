@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
 
-./build.sh
+./buildPrivate.sh
 
 fswatch -o assets/ trees/ | while read num ; \
   do \
     echo "Rebuilding forest"
-    time ./build.sh
+    time ./buildPrivate.sh
     echo "Done"
     echo
   done

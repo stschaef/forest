@@ -1,0 +1,13 @@
+\title{Finished TODOs}
+\author{stevenschaefer}
+\date{2025-04-17T16:38:44Z}
+
+\p{[[todos]]}
+
+\p{Completed tasks:}
+
+\query\datalog{
+ ?X -:
+   {\rel/has-taxon ?X '{TODO}}
+   {\rel/has-tag ?X '{done}}
+ }

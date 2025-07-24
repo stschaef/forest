@@ -1,0 +1,6 @@
+[forest]
+host = "stevnenschaefer"
+trees = ["trees"]
+assets = ["assets"]
+theme = "theme"
+url = "https://stevenschaefer.net"

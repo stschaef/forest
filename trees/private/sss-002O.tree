@@ -1,0 +1,8 @@
+\title{Need to Separate Public/Private}
+\author{stevenschaefer}
+\date{2025-04-17T16:39:35Z}
+\taxon{daily}
+
+\p{As this research journal gets longer, and as I use Forester as [TODO list](todos), I really ought to make a better distinction between public and private.}
+
+\p{I could try to use the in-flux publishing feature, but that seems brittle. Maybe I will just echo Jon's strategy of using separate Git repositories.}

@@ -1,9 +1,0 @@
-\title{Nullable Grammar}
-\taxon{definition}
-\date{2025-01-24}
-
-\import{grammar-macros}
-
-\p{
-  A grammar #{A} is nullable if the empty string belongs to the language of #{A}.
-}

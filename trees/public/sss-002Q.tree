@@ -1,0 +1,8 @@
+\title{Cloudflare Parsing Error}
+\author{stevenschaefer}
+\date{2025-04-29T02:14:12Z}
+\meta{external}{https://project-zero.issues.chromium.org/issues/42450151}
+
+\p{An error in the Cloudflare HTML parser would allow unintialized memory to be dumped when there were imbalanced HTML tags.}
+
+\p{This is indeed a case where a verified parser would have alleviated the issue.}

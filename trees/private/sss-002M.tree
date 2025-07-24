@@ -1,0 +1,11 @@
+\title{Verified Parsing Bibliography}
+\author{stevenschaefer}
+\date{2025-04-17T16:30:50Z}
+\taxon{TODO}
+\tag{todo}
+
+\p{Measure the technical capabilities, strengths, and weaknesses of state-of-the-art verified parsing techniques before next research meeting on April 24}
+
+\p{What benefits does our approach have over their, if any?}
+
+\p{What are some bespoke context-sensitive applications that we can verify that they cannot?}

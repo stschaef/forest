@@ -1,0 +1,11 @@
+\title{Compiling the Grammars Code}
+\author{stevenschaefer}
+\date{2025-04-08T14:55:42Z}
+\taxon{daily}
+
+\tag{deplambek}
+\import{grammar-macros}
+
+\p{We've been looking to [compile the cubical code used for Dependent Lambek Calculus](https://github.com/maxsnew/grammars-and-semantic-actions/issues/31), but it seems that it is infeasible to compile any non-erased cubical.}
+
+\p{This is especially problematic, because #{\epsilon} and literals each are encoded with a path type. We may be able to find another strategy to encode them, but it would require moderate refactors. For example, the definition of #{\epsilon} uses a path type. But, we could define a version using the builtin (non-cubical) equality type. Or perhaps a version that pattern matches on the string.}
