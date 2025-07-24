@@ -2,7 +2,7 @@
 \date{2024-08-06}
 \author{stevenschaefer}
 \export{base-macros}
-\taxon{definition}
+\taxon{Definition}
 
 \p{A [monoidal category](sss-0006) is \em{left closed} if for each #{Y \in C}, the functor #{- \otimes Y : C \to C} has a right adjoint #{\lto{Y}{-}  : C \to C } forming the left internal-hom out of #{Y}.}
 

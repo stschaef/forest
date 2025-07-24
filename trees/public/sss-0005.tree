@@ -2,7 +2,7 @@
 \date{2024-08-06}
 \author{stevenschaefer}
 \export{base-macros}
-\taxon{definition}
+\taxon{Definition}
 
 \p{A \em{biclosed monoidal category} (or just \em{closed category}) is a category #{C} with the following structure:
 

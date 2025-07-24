@@ -1,7 +1,7 @@
 \title{Kleene Star in \deplambek}
 \date{2025-02-03T19:03:14Z}
 \author{stevenschaefer}
-\taxon{definition}
+\taxon{Definition}
 \tag{deplambek}
 
 \import{grammar-macros}

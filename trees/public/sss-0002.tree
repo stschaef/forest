@@ -2,7 +2,7 @@
 \date{2024-08-06}
 \author{stevenschaefer}
 \export{base-macros}
-\taxon{definition}
+\taxon{Definition}
 
 \p{Lambek's \em{syntactic calculus} comprise the following rules:
 

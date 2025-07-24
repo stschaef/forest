@@ -2,7 +2,7 @@
 \date{2024-08-06}
 \author{stevenschaefer}
 \export{base-macros}
-\taxon{definition}
+\taxon{Definition}
 
 \p{If #{T \to x} and #{U , x , V \to y} then #{U , T , V \to y}.
 

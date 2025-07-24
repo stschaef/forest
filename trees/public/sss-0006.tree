@@ -2,7 +2,7 @@
 \date{2024-08-06}
 \author{jonmsterling}
 \export{base-macros}
-\taxon{definition}
+\taxon{Definition}
 
 \import{base-macros}
 

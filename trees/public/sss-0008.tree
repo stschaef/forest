@@ -3,7 +3,7 @@
 \author{stevenschaefer}
 \export{base-macros}
 \meta{source}{\citek{dougherty-1993}}
-\taxon{definition}
+\taxon{Definition}
 
 \p{Fixing a set of base types #{B},
 

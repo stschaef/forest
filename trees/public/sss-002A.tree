@@ -1,7 +1,7 @@
 \title{Greedy Parsing}
 \date{2025-02-19T04:57:07Z}
 \author{stevenschaefer}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   A regular expression #{r} may be unambiguous. To resolve this unambiguity one may choose to instead replace #{r} with an unambiguous goal for parsing, or instead one may define a disambiguation strategy for #{r}.
