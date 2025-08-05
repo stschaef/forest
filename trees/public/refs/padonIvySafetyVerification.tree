@@ -2,7 +2,7 @@
 \title{Ivy: Safety verification by interactive generalization}
 \date{2016-06}
 \author/literal{Oded Padon}\author/literal{Kenneth L. McMillan}\author/literal{Aurojit Panda}\author/literal{Mooly Sagiv}\author/literal{Sharon Shoham}
-\taxon{reference}
+\taxon{Reference}
 \tag{distributedsystems}
 \tag{inductiveinvariants}
 \meta{doi}{10.1145/2980983.2908118}

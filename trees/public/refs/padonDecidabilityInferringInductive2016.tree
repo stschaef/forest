@@ -2,7 +2,7 @@
 \title{Decidability of inferring inductive invariants}
 \date{2016}
 \author/literal{Oded Padon}\author/literal{Neil Immerman}\author/literal{Sharon Shoham}\author/literal{Aleksandr Karbyshev}\author/literal{Mooly Sagiv}
-\taxon{reference}
+\taxon{Reference}
 \tag{distributedsystems}
 \tag{inductiveinvariants}
 \meta{doi}{10.1145/2837614.2837640}

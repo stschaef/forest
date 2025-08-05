@@ -2,7 +2,7 @@
 \title{Sift: Using Refinement-guided Automation to Verify Complex Distributed Systems}
 \date{2022}
 \author/literal{Haojun Ma}\author/literal{Hammad Ahmad}\author/literal{Aman Goel}\author/literal{Eli Goldweber}\author/literal{Jean-Baptiste Jeannin}\author/literal{Manos Kapritsos}\author/literal{Baris Kasikci}
-\taxon{reference}
+\taxon{Reference}
 \tag{distributedsystems}
 \tag{inductiveinvariants}
 

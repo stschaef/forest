@@ -2,7 +2,7 @@
 \title{Cubical agda: A dependently typed programming language with univalence and higher inductive types}
 \date{2019-07}
 \author/literal{Andrea Vezzosi}\author/literal{Anders Mörtberg}\author/literal{Andreas Abel}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1145/3341691}
 \meta{external}{https://doi.org/10.1145/3341691}
 \tag{typetheory}

@@ -2,7 +2,7 @@
 \title{Coqlex: Generating formally verified lexers}
 \date{2023-06}
 \author/literal{Wendlasida Ouedraogo}\author/literal{Gabriel Scherer}\author/literal{Lutz Strassburger}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.22152/programming-journal.org/2024/8/3}
 \meta{external}{http://dx.doi.org/10.22152/programming-journal.org/2024/8/3}
 \tag{parsing}

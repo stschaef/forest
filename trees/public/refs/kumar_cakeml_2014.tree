@@ -2,7 +2,7 @@
 \title{CakeML: A verified implementation of ML}
 \date{2014-01}
 \author/literal{Ramana Kumar}\author/literal{Magnus O. Myreen}\author/literal{Michael Norrish}\author/literal{Scott Owens}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1145/2535838.2535841}
 \meta{external}{https://dl.acm.org/doi/10.1145/2535838.2535841}
 

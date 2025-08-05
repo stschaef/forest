@@ -2,7 +2,7 @@
 \title{Regular expression containment: Coinductive axiomatization and computational interpretation}
 \date{2011-01}
 \author/literal{Fritz Henglein}\author/literal{Lasse Nielsen}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1145/1925844.1926429}
 \meta{external}{https://dl.acm.org/doi/10.1145/1925844.1926429}
 \tag{parsing}

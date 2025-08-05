@@ -2,7 +2,7 @@
 \title{An efficient context-free parsing algorithm}
 \date{1970-02}
 \author/literal{Jay Earley}
-\taxon{reference}
+\taxon{Reference}
 \tag{parsing}
 \meta{doi}{10.1145/362007.362035}
 \meta{external}{https://doi.org/10.1145/362007.362035}

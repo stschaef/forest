@@ -2,7 +2,7 @@
 \title{Programming Techniques: Regular expression search algorithm}
 \date{1968-06}
 \author/literal{Ken Thompson}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1145/363347.363387}
 \meta{external}{https://dl.acm.org/doi/10.1145/363347.363387}
 \tag{parsing}

@@ -2,7 +2,7 @@
 \title{Certification of compiler optimizations using kleene algebra with tests}
 \date{2000}
 \author/literal{Dexter Kozen}\author/literal{Maria-Cristina Patron}
-\taxon{reference}
+\taxon{Reference}
 \tag{kalg}
 
 \meta{bibtex}{\startverb

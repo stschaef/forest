@@ -2,7 +2,7 @@
 \title{Verbatim: A verified lexer generator}
 \date{2021}
 \author/literal{Derek Egolf}\author/literal{Sam Lasser}\author/literal{Kathleen Fisher}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1109/SPW53761.2021.00022}
 \tag{parsing}
 

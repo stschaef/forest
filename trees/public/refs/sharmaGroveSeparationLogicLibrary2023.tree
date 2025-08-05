@@ -2,7 +2,7 @@
 \title{Grove: A Separation-Logic Library for Verifying Distributed Systems}
 \date{2023-10-23}
 \author/literal{Upamanyu Sharma}\author/literal{Ralf Jung}\author/literal{Joseph Tassarotti}\author/literal{Frans Kaashoek}\author/literal{Nickolai Zeldovich}
-\taxon{reference}
+\taxon{Reference}
 \tag{distributedsystems}
 \tag{inductiveinvariants}
 \meta{doi}{10.1145/3600006.3613172}

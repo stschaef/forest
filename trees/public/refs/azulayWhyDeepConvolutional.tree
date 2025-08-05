@@ -2,7 +2,7 @@
 \title{Why do deep convolutional networks generalize so poorly to small image transformations?}
 \date{2019}
 \author/literal{Aharon Azulay}\author/literal{Yair Weiss}
-\taxon{reference}
+\taxon{Reference}
 
 \tag{machinelearning}
 \tag{machinelearningverification}

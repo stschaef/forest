@@ -2,7 +2,7 @@
 \title{Indexed containers}
 \date{2015-01}
 \author/literal{Thorsten Altenkirch}\author/literal{Neil Ghani}\author/literal{Peter Hancock}\author/literal{Conor Mcbride}\author/literal{Peter Morris}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1017/S095679681500009X}
 \meta{external}{https://www.cambridge.org/core/journals/journal-of-functional-programming/article/indexed-containers/FB9C7DC88A65E7529D39554379D9765F}
 \tag{typetheory}

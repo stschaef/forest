@@ -2,7 +2,7 @@
 \title{Interval Parsing Grammars for File Format Parsing}
 \date{2023-06}
 \author/literal{Jialun Zhang}\author/literal{Greg Morrisett}\author/literal{Gang Tan}
-\taxon{reference}
+\taxon{Reference}
 \tag{parsing}
 \meta{doi}{10.1145/3591264}
 \meta{external}{https://dl.acm.org/doi/10.1145/3591264}

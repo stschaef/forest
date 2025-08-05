@@ -2,7 +2,7 @@
 \title{I4: Incremental inference of inductive invariants for verification of distributed protocols}
 \date{2019-10-27}
 \author/literal{Haojun Ma}\author/literal{Aman Goel}\author/literal{Jean-Baptiste Jeannin}\author/literal{Manos Kapritsos}\author/literal{Baris Kasikci}\author/literal{Karem A. Sakallah}
-\taxon{reference}
+\taxon{Reference}
 \tag{distributedsystems}
 \tag{inductiveinvariants}
 \meta{doi}{10.1145/3341301.3359651}

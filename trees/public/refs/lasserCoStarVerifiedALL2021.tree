@@ -2,7 +2,7 @@
 \title{CoStar: A verified ALL(*) parser}
 \date{2021-06}
 \author/literal{Sam Lasser}\author/literal{Chris Casinghino}\author/literal{Kathleen Fisher}\author/literal{Cody Roux}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1145/3453483.3454053}
 \tag{parsing}
 \tag{verified}

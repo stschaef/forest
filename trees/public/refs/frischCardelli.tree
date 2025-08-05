@@ -2,7 +2,7 @@
 \title{Greedy regular expression matching}
 \date{2004}
 \author/literal{Alain Frisch}\author/literal{Luca Cardelli}
-\taxon{reference}
+\taxon{Reference}
 \tag{parsing}
 
 \meta{bibtex}{\startverb

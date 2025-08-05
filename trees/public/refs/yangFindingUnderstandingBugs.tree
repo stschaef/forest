@@ -2,7 +2,7 @@
 \title{Finding and Understanding Bugs in C Compilers}
 \date{2011}
 \author/literal{Xuejun Yang}\author/literal{Yang Chen}\author/literal{Eric Eide}\author/literal{John Regehr}
-\taxon{reference}
+\taxon{Reference}
 \meta{doi}{10.1145/1993316.1993532}
 
 \meta{bibtex}{\startverb

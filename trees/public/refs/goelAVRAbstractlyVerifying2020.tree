@@ -2,7 +2,7 @@
 \title{AVR: Abstractly Verifying Reachability}
 \date{2020}
 \author/literal{Aman Goel}\author/literal{Karem Sakallah}
-\taxon{reference}
+\taxon{Reference}
 \tag{distributedsystems}
 \tag{inductiveinvariants}
 \meta{doi}{10.1007/978-3-030-45190-5_23}
