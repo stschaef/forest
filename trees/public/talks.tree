@@ -3,5 +3,5 @@
 
 \query\datalog{
  ?X -:
-   {\rel/has-taxon ?X '{talk}}
+   {\rel/has-taxon ?X '{Talk}}
 }

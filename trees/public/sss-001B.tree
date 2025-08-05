@@ -6,7 +6,7 @@
 \author{pedrohaamorim}
 \author{nathanvarner}
 
-\taxon{talk}
+\taxon{Talk}
 \meta{slides}{\route-asset{assets/MWPLS.pdf}}
 \meta{venue}{[Midwest Programming Languages Summit](https://pl.cs.uchicago.edu/PLSummit/2024/)}
 
@@ -23,8 +23,9 @@
   context-free grammars as well as traces of various types of
   automata. Using these encodings, we define parsers for regular
   expressions using deterministic automata, as well as
-  examples of verified parsers of context-free grammars.
+  examples of verified parsers of context-free grammars.}
 
+\p{
   We present a denotational semantics of our type theory that
   interprets the types as a mathematical notion of formal
   grammars. Based on this denotational semantics, we have made a

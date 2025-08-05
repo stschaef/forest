@@ -12,11 +12,8 @@ I am a third-year PhD student at the University of Michigan advised by [Max New]
 
 \p{I am interested in the mathematical study of programming languages. In particular, I study the application of logic and category theory to the design and implementation of provably correct software.}
 
-\transclude{sss-000F}
-
-\transclude{contact}
-
 \put\transclude/expanded{false}
+\transclude{sss-000F}
 
 \transclude{publications}
 
@@ -24,15 +21,8 @@ I am a third-year PhD student at the University of Michigan advised by [Max New]
 
 \transclude{teaching}
 
+\transclude{contact}
+
 % \transclude{notes}
 
 \transclude{sss-000E}
-
-% Mastodon verification
-% this doesn't seem to be working :(
-% maybe it just takes time for the server to check
-% <a rel="me" href="https://mathstodon.xyz/@stschaef">Mastodon</a>
-\p{
-\xmlns:html{http://www.w3.org/1999/xhtml}
-\<html:a>[rel]{me}[href]{https://mathstodon.xyz/@stschaef}{}
-}

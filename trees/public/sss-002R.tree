@@ -1,35 +1,18 @@
 \title{Intrinsic Verification of Parsers and Formal Grammar Theory in Dependent Lambek Calculus}
-\taxon{Reference}
-\tag{conferencepub}
+\date{2025-06-19}
+
 \author{stevenschaefer}
 \author{maxsnew}
 \author{pedrohaamorim}
 \author{nathanvarner}
-\meta{doi}{10.1145/3729281}
 
-\import{base-macros}
-
-\let\row[k][v]{
-  \tr{
-    \td{\strong{\k:}}
-    \td{\v}
-  }
-}
-
-\table{
-  \row{DOI}{
-    [https://dl.acm.org/doi/10.1145/3729281](https://dl.acm.org/doi/10.1145/3729281)
-  }
-  \row{Extended Version}{
-    [https://arxiv.org/abs/2504.03995](https://arxiv.org/abs/2504.03995)
-  }
-  \row{Repository}{
-    [https://github.com/maxsnew/grammars-and-semantic-actions](https://github.com/maxsnew/grammars-and-semantic-actions)
-  }
-}
+\taxon{Talk}
+\meta{slides}{\route-asset{assets/pldi.pdf}}
+\meta{venue}{[PLDI](https://pldi25.sigplan.org/)}
+\meta{external}{https://www.youtube.com/watch?v=O1eXYHv2VU8}
 
 \p{
-  We present Dependent Lambek Calculus, a domain-specific dependent
+  We present [Dependent Lambek Calculus](sss-000I), a domain-specific dependent
   type theory for verified parsing and formal grammar theory. In
   Dependent Lambek Calculus, linear types are used as a syntax for formal grammars,
   and parsers can be written as linear terms. The linear typing

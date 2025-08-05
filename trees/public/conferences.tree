@@ -1,6 +1,10 @@
-\title{Preprints and Drafts}
+\title{Conferences}
 \author{stevenschaefer}
 
 \put\transclude/expanded{false}
 
-\transclude{sss-000I}
+\query\datalog{
+ ?X -:
+   {\rel/has-taxon ?X '{Reference}}
+   {\rel/has-tag ?X '{conferencepub}}
+ }
