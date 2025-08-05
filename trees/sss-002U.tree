@@ -4,8 +4,8 @@
 
 \tag{forester}
 
-#{Today I have tried to make my forest a little more usable. I believe that I have finished the public/private split appropriately, and I have finally rebound keys so that I will actually use the tool!}
+\p{Today I have tried to make my forest a little more usable. I believe that I have finished the public/private split appropriately, and I have finally rebound keys so that I will actually use the tool!}
 
-#{I think that I can enrich the TODO functionality by tagging with priorities and using datalog to query the priority levels.}
+\p{I think that I can enrich the TODO functionality by tagging with priorities and using datalog to query the priority levels.}
 
-#{I am also curious if it would be useful to have a frontend that allows dynamic datalog queries. It would be very nice for browsing through the notes if one could search/browse a richer map of their forest.}
+\p{I am also curious if it would be useful to have a frontend that allows dynamic datalog queries. It would be very nice for browsing through the notes if one could search/browse a richer map of their forest.}
